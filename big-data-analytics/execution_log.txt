@@ -1,0 +1,297 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/07/24 17:49:55 WARN Utils: Your hostname, vm, resolves to a loopback address: 127.0.0.1; using 192.0.2.2 instead (on interface eth0)
+26/07/24 17:49:55 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+/usr/local/lib/python3.12/dist-packages/pyspark/testing/utils.py:127: FutureWarning: PySpark does not yet fully support pandas >= 3.0.0. Some features may not work correctly. It is recommended to use pandas < 3.0.0 for now.
+  require_minimum_pandas_version()
+26/07/24 17:49:58 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+================================================================================
+SPARK SESSION STARTED
+Spark version: 4.2.0
+Default parallelism (cores): 1
+================================================================================
+
+[PART 3.1] Ingesting telemetry data and computing avg engine temp per model
+--------------------------------------------------------------------------------
+
+[Stage 0:>                                                          (0 + 1) / 1]
+
+                                                                                
+
+[Stage 1:>                                                          (0 + 1) / 1]
+
+                                                                                
+
+[Stage 2:>                                                          (0 + 1) / 1]
+
+                                                                                
+Ingested row count: 220,000
+root
+ |-- vehicle_id: string (nullable = true)
+ |-- vehicle_model: string (nullable = true)
+ |-- timestamp: timestamp (nullable = true)
+ |-- engine_temp_c: double (nullable = true)
+ |-- speed_kmph: double (nullable = true)
+ |-- latitude: double (nullable = true)
+ |-- longitude: double (nullable = true)
+ |-- battery_efficiency: double (nullable = true)
+ |-- miles_driven: double (nullable = true)
+
+
+Average engine temperature per vehicle model (ACTION: show()):
+
+[Stage 5:>                                                          (0 + 1) / 1]
+
+                                                                                
++---------------+-----------------+-------------+------------------+
+|vehicle_model  |avg_engine_temp_c|reading_count|total_miles_driven|
++---------------+-----------------+-------------+------------------+
+|EcoFleet-200   |81.5140902222225 |45000        |110953.73900000009|
+|FreightMax-9000|93.51427375666094|45040        |111360.75000000028|
+|LongRoute-750  |96.5230295648056 |84560        |208438.22600000192|
+|UrbanHauler-500|86.50626960352463|45400        |112431.51500000064|
++---------------+-----------------+-------------+------------------+
+
+Part 3.1 completed in 14.87s
+
+Dependency classification:
+  NARROW (no shuffle): read/csv partition parsing, filter(), select()
+     -> each output partition is computed from exactly one input partition.
+  WIDE (forces shuffle): groupBy('vehicle_model').agg(...), orderBy(...)
+     -> requires repartitioning by key (or a global sort) across the cluster.
+
+
+[PART 3.2] Demonstrating and mitigating data skew with salting
+--------------------------------------------------------------------------------
+Row counts per vehicle_id (top 10 - reveals the skewed 'hot' vehicles):
+
+[Stage 8:>                                                          (0 + 1) / 1]
+
+                                                                                
++----------+-----+
+|vehicle_id|count|
++----------+-----+
+|VHOT000   |40000|
+|VHOT003   |40000|
+|VHOT002   |40000|
+|VHOT004   |40000|
+|VHOT001   |40000|
+|V000002   |40   |
+|V000028   |40   |
+|V000031   |40   |
+|V000034   |40   |
+|V000037   |40   |
++----------+-----+
+only showing top 10 rows
+
+Salted two-phase aggregation result (top 10 by reading count):
+
+[Stage 11:>                                                         (0 + 1) / 1]
+
+                                                                                
++----------+---------------+-----------------+--------------+
+|vehicle_id|vehicle_model  |avg_engine_temp_c|total_readings|
++----------+---------------+-----------------+--------------+
+|VHOT003   |LongRoute-750  |96.553219        |40000         |
+|VHOT001   |LongRoute-750  |96.49294700000002|40000         |
+|VHOT000   |FreightMax-9000|93.51113324999993|40000         |
+|VHOT004   |UrbanHauler-500|86.49330324999991|40000         |
+|VHOT002   |EcoFleet-200   |81.51705300000006|40000         |
+|V000031   |FreightMax-9000|94.85774999999998|40            |
+|V000040   |LongRoute-750  |96.59725         |40            |
+|V000042   |UrbanHauler-500|87.11125000000001|40            |
+|V000059   |FreightMax-9000|93.72175         |40            |
+|V000066   |UrbanHauler-500|86.706           |40            |
++----------+---------------+-----------------+--------------+
+only showing top 10 rows
+
+Partitions after repartition(4, 'vehicle_model') [HASH partitioning]: 4
+
+[PART 3.3] Fault tolerance via RDD lineage (no data replication needed)
+--------------------------------------------------------------------------------
+Logical plan (lineage) for the salted aggregation:
+== Physical Plan ==
+AdaptiveSparkPlan isFinalPlan=false
++- Sort [total_readings#108L DESC NULLS LAST], true, 0
+   +- Exchange rangepartitioning(total_readings#108L DESC NULLS LAST, 8), ENSURE_REQUIREMENTS, [plan_id=468]
+      +- HashAggregate(keys=[vehicle_id#17, vehicle_model#18], functions=[sum(sum_temp#98), sum(cnt#99L)])
+         +- Exchange hashpartitioning(vehicle_id#17, vehicle_model#18, 8), ENSURE_REQUIREMENTS, [plan_id=465]
+            +- HashAggregate(keys=[vehicle_id#17, vehicle_model#18], functions=[partial_sum(sum_temp#98), partial_sum(cnt#99L)])
+               +- HashAggregate(keys=[salted_vehicle_id#97, vehicle_id#17, vehicle_model#18], functions=[sum(engine_temp_c#20), count(1)])
+                  +- Exchange hashpartitioning(salted_vehicle_id#97, vehicle_id#17, vehicle_model#18, 8), ENSURE_REQUIREMENTS, [plan_id=461]
+                     +- HashAggregate(keys=[salted_vehicle_id#97, vehicle_id#17, vehicle_model#18], functions=[partial_sum(engine_temp_c#20), partial_count(1)])
+                        +- Project [vehicle_id#17, vehicle_model#18, engine_temp_c#20, concat(vehicle_id#17, _, cast(cast((rand(-876511622714983797) * 8.0) as int) as string)) AS salted_vehicle_id#97]
+                           +- Filter isnotnull(engine_temp_c#20)
+                              +- FileScan csv [vehicle_id#17,vehicle_model#18,engine_temp_c#20] Batched: false, DataFilters: [isnotnull(engine_temp_c#20)], Format: CSV, Location: InMemoryFileIndex(1 paths)[file:/home/claude/telemetry_project/data/vehicle_telemetry.csv], PartitionFilters: [], PushedFilters: [IsNotNull(engine_temp_c)], ReadSchema: struct<vehicle_id:string,vehicle_model:string,engine_temp_c:double>
+
+
+None
+
+[PART 3.4] Simulating iterative lineage growth + checkpointing
+--------------------------------------------------------------------------------
+Running 60 iterative transformations (checkpointing every 10 iterations)...
+
+[Stage 23:>                                                         (0 + 1) / 1]
+
+                                                                                
+  Iteration 10: checkpoint taken -> lineage truncated here.
+
+[Stage 24:>                                                         (0 + 1) / 1]
+
+                                                                                
+  Iteration 20: checkpoint taken -> lineage truncated here.
+26/07/24 17:50:34 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+
+[Stage 25:>                                                         (0 + 1) / 1]
+
+                                                                                
+  Iteration 30: checkpoint taken -> lineage truncated here.
+
+[Stage 26:>                                                         (0 + 1) / 1]
+
+                                                                                
+  Iteration 40: checkpoint taken -> lineage truncated here.
+
+[Stage 27:>                                                         (0 + 1) / 1]
+
+                                                                                
+  Iteration 50: checkpoint taken -> lineage truncated here.
+
+[Stage 28:>                                                         (0 + 1) / 1]
+
+                                                                                
+  Iteration 60: checkpoint taken -> lineage truncated here.
+Completed 60 iterations with periodic checkpointing in 13.14s
+Final row count after iterative processing (ACTION): 220,000
+
+CACHING vs CHECKPOINTING (Part 4.3):
+  cache()/persist(): stores data in memory/disk for reuse, but KEEPS the
+     full lineage. If the cached data is lost, Spark still needs the
+     original lineage to recompute it. Cache is a performance optimization,
+     not a fault-tolerance / lineage-truncation mechanism.
+  checkpoint(): writes data to reliable storage AND cuts the lineage graph
+     at that point. Recovery after a checkpoint never needs to look further
+     back than the checkpoint itself. This is the tool that actually solves
+     the "liability of lineage" (StackOverflow risk, unbounded recovery time).
+
+
+[PART 4.1] Lazy evaluation and DAG -> Stage decomposition
+--------------------------------------------------------------------------------
+Physical plan showing Stage boundaries introduced by wide dependencies (Exchange = shuffle boundary = new Stage):
+== Physical Plan ==
+AdaptiveSparkPlan (12)
++- Sort (11)
+   +- Exchange (10)
+      +- HashAggregate (9)
+         +- Exchange (8)
+            +- HashAggregate (7)
+               +- HashAggregate (6)
+                  +- Exchange (5)
+                     +- HashAggregate (4)
+                        +- Project (3)
+                           +- Filter (2)
+                              +- Scan csv  (1)
+
+
+(1) Scan csv 
+Output [3]: [vehicle_id#17, vehicle_model#18, engine_temp_c#20]
+Batched: false
+Location: InMemoryFileIndex [file:/home/claude/telemetry_project/data/vehicle_telemetry.csv]
+PushedFilters: [IsNotNull(engine_temp_c)]
+ReadSchema: struct<vehicle_id:string,vehicle_model:string,engine_temp_c:double>
+
+(2) Filter
+Input [3]: [vehicle_id#17, vehicle_model#18, engine_temp_c#20]
+Condition : isnotnull(engine_temp_c#20)
+
+(3) Project
+Output [4]: [vehicle_id#17, vehicle_model#18, engine_temp_c#20, concat(vehicle_id#17, _, cast(cast((rand(-876511622714983797) * 8.0) as int) as string)) AS salted_vehicle_id#97]
+Input [3]: [vehicle_id#17, vehicle_model#18, engine_temp_c#20]
+
+(4) HashAggregate
+Input [4]: [vehicle_id#17, vehicle_model#18, engine_temp_c#20, salted_vehicle_id#97]
+Keys [3]: [salted_vehicle_id#97, vehicle_id#17, vehicle_model#18]
+Functions [2]: [partial_sum(engine_temp_c#20), partial_count(1)]
+Aggregate Attributes [2]: [sum#125, count#126L]
+Results [5]: [salted_vehicle_id#97, vehicle_id#17, vehicle_model#18, sum#127, count#128L]
+
+(5) Exchange
+Input [5]: [salted_vehicle_id#97, vehicle_id#17, vehicle_model#18, sum#127, count#128L]
+Arguments: hashpartitioning(salted_vehicle_id#97, vehicle_id#17, vehicle_model#18, 8), ENSURE_REQUIREMENTS, [plan_id=461]
+
+(6) HashAggregate
+Input [5]: [salted_vehicle_id#97, vehicle_id#17, vehicle_model#18, sum#127, count#128L]
+Keys [3]: [salted_vehicle_id#97, vehicle_id#17, vehicle_model#18]
+Functions [2]: [sum(engine_temp_c#20), count(1)]
+Aggregate Attributes [2]: [sum(engine_temp_c#20)#106, count(1)#105L]
+Results [4]: [vehicle_id#17, vehicle_model#18, sum(engine_temp_c#20)#106 AS sum_temp#98, count(1)#105L AS cnt#99L]
+
+(7) HashAggregate
+Input [4]: [vehicle_id#17, vehicle_model#18, sum_temp#98, cnt#99L]
+Keys [2]: [vehicle_id#17, vehicle_model#18]
+Functions [2]: [partial_sum(sum_temp#98), partial_sum(cnt#99L)]
+Aggregate Attributes [2]: [sum#121, sum#122L]
+Results [4]: [vehicle_id#17, vehicle_model#18, sum#123, sum#124L]
+
+(8) Exchange
+Input [4]: [vehicle_id#17, vehicle_model#18, sum#123, sum#124L]
+Arguments: hashpartitioning(vehicle_id#17, vehicle_model#18, 8), ENSURE_REQUIREMENTS, [plan_id=465]
+
+(9) HashAggregate
+Input [4]: [vehicle_id#17, vehicle_model#18, sum#123, sum#124L]
+Keys [2]: [vehicle_id#17, vehicle_model#18]
+Functions [2]: [sum(sum_temp#98), sum(cnt#99L)]
+Aggregate Attributes [2]: [sum(sum_temp#98)#114, sum(cnt#99L)#115L]
+Results [4]: [vehicle_id#17, vehicle_model#18, (sum(sum_temp#98)#114 / cast(sum(cnt#99L)#115L as double)) AS avg_engine_temp_c#107, sum(cnt#99L)#115L AS total_readings#108L]
+
+(10) Exchange
+Input [4]: [vehicle_id#17, vehicle_model#18, avg_engine_temp_c#107, total_readings#108L]
+Arguments: rangepartitioning(total_readings#108L DESC NULLS LAST, 8), ENSURE_REQUIREMENTS, [plan_id=468]
+
+(11) Sort
+Input [4]: [vehicle_id#17, vehicle_model#18, avg_engine_temp_c#107, total_readings#108L]
+Arguments: [total_readings#108L DESC NULLS LAST], true, 0
+
+(12) AdaptiveSparkPlan
+Output [4]: [vehicle_id#17, vehicle_model#18, avg_engine_temp_c#107, total_readings#108L]
+Arguments: isFinalPlan=false
+
+
+
+How stages are formed:
+  Spark walks the logical DAG backwards from the final action. Every time
+  it crosses a WIDE dependency (a shuffle-requiring operation, shown as
+  'Exchange' in the physical plan above), it closes the current Stage and
+  opens a new one. Tasks WITHIN a stage can run back-to-back with no
+  network I/O (pure narrow/pipelined transformations); a NEW stage cannot
+  start until all tasks of the previous stage have produced their shuffle
+  output, since it must read data that other executors produced.
+
+
+[PART 4.2] Data locality demo
+--------------------------------------------------------------------------------
+Input file partitions created by Spark's CSV reader: 1
+
+Spark's scheduler tries to schedule each task on (or as close as possible to)
+the executor/node that ALREADY holds the data block it needs (PROCESS_LOCAL >
+NODE_LOCAL > RACK_LOCAL > ANY). Since telemetry files can be gigabytes across
+500,000 vehicles, shipping the ~KBs of compiled task code to the data is far
+cheaper than shipping GBs of raw telemetry across the network to the code -
+this is the "don't move data, move code" principle, and it's the main reason
+Spark stages that DON'T require a shuffle (narrow dependencies) run so much
+faster than the wide-dependency stages that must move data between nodes.
+
+
+Writing final aggregation result to output/avg_temp_per_model ...
+
+[Stage 39:>                                                         (0 + 1) / 1]
+
+                                                                                
+Write complete.
+
+================================================================================
+PIPELINE COMPLETED SUCCESSFULLY
+================================================================================
