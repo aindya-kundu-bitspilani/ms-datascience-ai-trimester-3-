@@ -1,0 +1,31 @@
+{
+  "model_version": "v20260726_101746",
+  "promoted_model_type": "random_forest",
+  "promoted": true,
+  "reason": "[retrain] Promoted retrained model: test ROC AUC 0.8473 >= 0.8 and within 0.01 of current production model (0.8473).",
+  "trained_at": "2026-07-26T10:17:46.318916+00:00",
+  "feature_columns": [
+    "tenure_months",
+    "monthly_charges",
+    "total_charges",
+    "senior_citizen",
+    "partner",
+    "dependents",
+    "phone_service",
+    "multiple_lines",
+    "paperless_billing",
+    "internet_service_encoded",
+    "tenure_bucket",
+    "charges_per_tenure_month",
+    "monthly_rate_deviation",
+    "num_addon_services",
+    "is_month_to_month",
+    "high_value_customer",
+    "payment_method_encoded"
+  ],
+  "promoted_test_metrics": {
+    "accuracy": 0.7938,
+    "roc_auc": 0.8473,
+    "n_samples": 1057
+  }
+}
