@@ -1,0 +1,706 @@
+customer_id,tenure_months,monthly_charges,total_charges,contract_type,payment_method,internet_service,online_security,online_backup,device_protection,tech_support,streaming_tv,streaming_movies,senior_citizen,partner,dependents,phone_service,multiple_lines,paperless_billing,churn
+2081-KJSQF,1,20.25,20.25,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+7623-TRNQN,1,49.9,49.9,month_to_month,mailed_check,dsl,No,No,No,Yes,No,No,0,0,1,1,0,1,1
+3323-CPBWR,23,96.9,2085.45,month_to_month,credit_card,fiber_optic,No,No,Yes,Yes,Yes,No,0,0,0,1,1,1,0
+9330-IJWIO,13,100.35,1358.85,month_to_month,electronic_check,fiber_optic,Yes,No,No,No,Yes,Yes,0,0,0,1,1,1,1
+3384-CTMSF,47,104.1,5135.15,month_to_month,electronic_check,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,1,0,1,1,1,0
+0902-RFHOF,38,20.1,730.1,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+9286-DOJGF,38,74.95,2869.85,month_to_month,bank_transfer,fiber_optic,No,No,No,No,No,No,1,1,0,1,1,1,1
+6048-QBXKL,2,56.55,118.25,month_to_month,credit_card,dsl,No,Yes,No,No,No,No,1,0,0,1,1,1,0
+9661-MHUMO,1,49.25,49.25,month_to_month,credit_card,dsl,No,No,No,Yes,No,No,1,1,1,1,0,1,1
+7718-RXDGG,15,68.6,1108.6,month_to_month,bank_transfer,fiber_optic,No,No,No,No,No,No,0,1,0,1,0,1,0
+1025-FALIX,26,69.05,1815.65,month_to_month,credit_card,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,0
+3451-VAWLI,35,19.7,730.4,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+3407-QGWLG,3,20.05,75.45,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,1,1,0,1,0
+1842-EZJMK,50,103.7,5071.05,month_to_month,electronic_check,fiber_optic,No,Yes,No,Yes,Yes,Yes,0,1,1,1,1,0,1
+2347-WKKAE,42,94.4,4014.6,month_to_month,electronic_check,fiber_optic,Yes,No,Yes,No,No,Yes,0,1,0,1,1,1,0
+8735-DCXNF,10,54.95,568.85,month_to_month,credit_card,dsl,Yes,No,No,Yes,No,No,0,1,0,1,0,1,0
+3214-IYUUQ,61,93.7,5860.7,one_year,bank_transfer,fiber_optic,Yes,Yes,No,Yes,No,Yes,0,1,0,1,0,0,0
+1936-UAFEH,68,110.25,7279.35,two_year,credit_card,fiber_optic,Yes,Yes,No,Yes,Yes,Yes,0,0,0,1,1,0,0
+3587-PMCOY,10,98.9,1064.95,one_year,electronic_check,fiber_optic,Yes,No,Yes,No,Yes,Yes,0,0,0,1,0,1,0
+8079-XRJRS,65,89.75,5769.6,one_year,electronic_check,fiber_optic,Yes,Yes,Yes,No,No,No,0,1,0,1,1,0,1
+1027-LKKQQ,72,80.45,5886.85,two_year,bank_transfer,dsl,Yes,No,Yes,Yes,Yes,Yes,0,1,1,1,0,1,0
+7148-XZPHA,55,79.4,4238.45,month_to_month,electronic_check,fiber_optic,No,Yes,No,Yes,No,No,0,1,1,1,0,0,0
+8073-IJDCM,1,20.3,20.3,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,1
+5309-TAIKL,7,62.8,418.3,month_to_month,bank_transfer,dsl,No,No,Yes,Yes,No,Yes,0,0,0,1,0,0,0
+6856-RAURS,2,74.9,136.05,month_to_month,mailed_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,1,1,0
+8778-LMWTJ,9,74.85,708.2,month_to_month,electronic_check,fiber_optic,Yes,No,No,No,No,No,0,0,0,1,0,1,0
+9717-IOAAF,27,25.85,788.55,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,1,1,1,1,0
+8884-ADFVN,7,101.95,700.85,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,Yes,1,1,0,1,1,1,1
+2845-KDHVX,64,68.3,4378.8,two_year,mailed_check,dsl,No,Yes,Yes,Yes,No,Yes,0,1,0,1,0,1,0
+0848-SOMKO,70,48.4,3442.8,two_year,bank_transfer,dsl,Yes,No,Yes,Yes,No,Yes,0,0,0,0,0,0,0
+2720-WGKHP,2,94.0,181.7,month_to_month,electronic_check,fiber_optic,No,No,No,No,Yes,Yes,1,0,0,1,1,1,1
+6734-FQAJX,67,105.05,7171.7,two_year,electronic_check,fiber_optic,Yes,Yes,No,Yes,Yes,Yes,1,0,0,1,0,1,0
+2869-ADAWR,45,89.3,4016.85,month_to_month,credit_card,fiber_optic,No,Yes,No,No,Yes,No,0,0,0,1,1,1,1
+1535-VTJOQ,24,25.15,553.0,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,1,0,0
+6368-TZZDT,4,19.5,96.85,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+0943-ZQPXH,44,92.95,4122.9,month_to_month,bank_transfer,fiber_optic,No,No,Yes,No,Yes,Yes,0,1,1,1,0,1,0
+1293-BSEUN,72,20.7,1482.3,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,1,0
+9894-EZEWG,1,74.3,74.3,month_to_month,credit_card,fiber_optic,No,Yes,No,No,No,No,0,0,0,1,0,1,1
+1302-TPUBN,66,19.35,1240.8,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+7851-FLGGQ,1,44.65,44.65,month_to_month,mailed_check,dsl,No,Yes,No,Yes,No,Yes,0,0,0,0,0,1,1
+0637-UBJRP,13,84.05,1095.3,month_to_month,electronic_check,fiber_optic,Yes,No,No,No,No,Yes,0,1,1,1,0,0,1
+0940-OUQEC,10,80.7,788.8,month_to_month,bank_transfer,fiber_optic,No,Yes,No,No,No,No,0,0,0,1,1,1,1
+2378-VTKDH,65,104.35,6578.55,month_to_month,electronic_check,fiber_optic,No,Yes,Yes,No,Yes,Yes,1,1,0,1,1,1,0
+0927-CNGRH,1,19.55,19.55,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,1,1,0,0,0
+8608-OZTLB,38,74.05,2802.3,one_year,electronic_check,dsl,Yes,Yes,Yes,Yes,Yes,No,0,1,1,1,0,0,0
+2335-GSODA,23,40.1,857.75,two_year,mailed_check,dsl,Yes,No,Yes,Yes,No,No,0,0,1,0,0,0,0
+1952-DVVSW,10,20.1,184.4,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,0,1,0,0,0
+0702-PGIBZ,4,101.7,364.55,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,Yes,Yes,0,0,1,1,1,1,1
+6656-GULJQ,72,83.55,6093.3,two_year,credit_card,dsl,Yes,No,Yes,Yes,Yes,Yes,0,1,1,1,1,1,0
+9853-JFZDU,35,56.85,1861.1,month_to_month,electronic_check,dsl,No,Yes,No,Yes,No,No,0,1,0,1,0,0,0
+1963-VAUKV,1,20.4,20.4,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,1
+3777-XROBG,58,19.55,1079.65,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+6994-FGRHH,70,106.15,7475.1,one_year,electronic_check,fiber_optic,No,Yes,Yes,Yes,Yes,Yes,0,1,1,1,0,1,0
+4000-VGMQP,38,78.95,2862.55,one_year,credit_card,dsl,No,Yes,Yes,No,Yes,Yes,0,1,1,1,1,0,0
+3999-WRNGR,60,49.75,3069.45,month_to_month,electronic_check,dsl,No,Yes,No,No,Yes,Yes,0,1,1,0,0,1,0
+3466-RITXD,26,92.4,2349.8,month_to_month,credit_card,fiber_optic,Yes,Yes,No,No,Yes,No,0,0,0,1,1,1,0
+2680-XKKNJ,8,58.2,469.25,one_year,bank_transfer,dsl,Yes,Yes,No,Yes,No,No,0,0,0,1,0,0,0
+3058-HJCUY,41,102.6,4213.35,one_year,electronic_check,fiber_optic,No,No,Yes,Yes,Yes,Yes,0,1,1,1,1,1,1
+2974-GGUXS,36,91.95,3301.05,month_to_month,credit_card,fiber_optic,No,Yes,No,No,Yes,No,1,1,0,1,1,1,0
+7994-XIRTR,54,65.25,3529.95,one_year,bank_transfer,dsl,No,No,Yes,Yes,No,Yes,1,0,0,1,0,0,0
+3259-FDWOY,71,106.0,7723.7,two_year,bank_transfer,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,1,1,1,1,1,1
+2101-RANCD,55,73.1,4144.9,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,1,1,0
+7921-BEPCI,72,59.75,4265.0,two_year,bank_transfer,dsl,Yes,Yes,No,No,No,No,0,0,0,1,1,0,0
+0807-ZABDG,3,55.1,154.65,month_to_month,mailed_check,dsl,Yes,No,No,Yes,No,No,0,0,1,1,0,1,1
+8510-TMWYB,54,59.8,3246.45,two_year,bank_transfer,dsl,No,Yes,Yes,No,No,No,0,1,1,1,1,1,0
+3258-ZKPAI,72,116.6,8337.45,two_year,bank_transfer,fiber_optic,Yes,Yes,Yes,Yes,Yes,Yes,0,1,1,1,1,1,0
+1428-IEDPR,52,109.3,5731.4,two_year,electronic_check,fiber_optic,Yes,No,Yes,Yes,Yes,Yes,0,0,0,1,1,1,0
+5298-GSTLM,60,101.4,6176.6,one_year,bank_transfer,fiber_optic,Yes,No,No,No,Yes,Yes,1,0,0,1,1,1,0
+4450-YOOHP,39,50.65,1905.4,month_to_month,credit_card,dsl,No,No,Yes,No,Yes,Yes,0,0,0,0,0,1,0
+6728-CZFEI,15,56.15,931.9,one_year,mailed_check,dsl,No,No,No,No,Yes,No,0,0,0,1,0,0,0
+5748-RNCJT,69,106.5,7348.8,two_year,bank_transfer,fiber_optic,No,No,Yes,Yes,Yes,Yes,0,0,0,1,1,1,1
+3653-NCRDJ,43,19.2,776.25,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,1,0
+6121-TNHBO,63,83.0,5243.05,one_year,bank_transfer,dsl,Yes,Yes,Yes,Yes,Yes,No,1,0,0,1,1,0,0
+5119-NZPTV,2,70.1,141.65,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,1,1,0,1,0,0,0
+6519-ZHPXP,72,108.3,7679.65,two_year,bank_transfer,fiber_optic,Yes,Yes,Yes,Yes,Yes,Yes,0,1,1,1,0,1,0
+7739-LAXOG,32,91.05,2954.5,month_to_month,bank_transfer,fiber_optic,No,No,Yes,No,No,Yes,0,1,1,1,1,1,1
+3472-QPRCH,40,25.25,1006.9,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,1,0,0
+8224-UAXBZ,58,45.35,2540.1,one_year,electronic_check,dsl,Yes,Yes,No,No,Yes,No,0,1,0,0,0,1,0
+9610-WCESF,67,43.9,3097.2,two_year,electronic_check,dsl,Yes,No,No,Yes,Yes,No,0,0,0,0,0,0,0
+9776-CLUJA,51,77.5,3807.35,month_to_month,electronic_check,fiber_optic,Yes,No,No,No,No,No,1,1,0,1,1,1,1
+2486-WYVVE,31,79.3,2484.0,one_year,mailed_check,dsl,No,No,Yes,Yes,Yes,Yes,0,1,0,1,1,1,0
+3865-ZYKAD,69,84.9,5785.65,month_to_month,credit_card,fiber_optic,Yes,Yes,No,No,No,No,1,1,0,1,1,1,0
+1422-DGUBX,32,79.25,2619.15,one_year,electronic_check,fiber_optic,No,No,No,Yes,No,No,0,1,0,1,1,1,0
+2999-AANRQ,21,71.05,1524.85,two_year,credit_card,dsl,Yes,Yes,No,Yes,Yes,No,0,0,0,1,0,0,0
+8668-KNZTI,52,53.75,2790.65,one_year,electronic_check,dsl,Yes,No,Yes,No,No,No,0,0,0,1,0,0,0
+0480-KYJVA,72,24.25,1784.5,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,1,0,0
+6034-ZRYCV,72,54.2,3937.45,two_year,electronic_check,dsl,No,Yes,Yes,No,Yes,Yes,0,1,0,0,0,1,1
+9746-YKGXB,52,44.25,2276.1,one_year,bank_transfer,dsl,Yes,No,Yes,No,No,Yes,0,1,1,0,0,0,0
+3926-YZVVX,41,50.05,2029.05,one_year,bank_transfer,dsl,No,No,No,Yes,No,No,0,0,0,1,0,0,0
+6000-UKLWI,41,20.15,802.35,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+2079-FBMZK,6,69.25,418.4,month_to_month,mailed_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,1
+6332-FBZRI,67,69.35,4653.25,one_year,credit_card,dsl,Yes,Yes,Yes,Yes,No,No,0,1,1,1,1,1,0
+2096-XOTMO,16,19.35,275.9,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+3266-FTKHB,17,19.15,343.45,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+8221-EQDGL,35,61.0,2130.45,month_to_month,mailed_check,dsl,Yes,Yes,Yes,No,No,No,0,1,0,1,0,0,0
+2346-LOCWC,58,20.5,1191.4,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+6608-QQLVK,1,50.5,50.5,month_to_month,electronic_check,dsl,No,No,Yes,No,No,No,0,0,0,1,0,1,1
+0298-XACET,52,50.2,2554.0,two_year,mailed_check,dsl,No,Yes,Yes,Yes,Yes,No,0,1,1,0,0,0,0
+7560-QJAVJ,70,79.6,5589.45,two_year,bank_transfer,dsl,Yes,No,Yes,Yes,Yes,Yes,0,0,0,1,0,0,0
+2995-YWTCD,19,24.9,467.7,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,1,1,0
+3551-HUAZH,1,74.4,74.4,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,1,0,0,1,1,1,1
+9137-UIYPG,35,106.9,3756.45,month_to_month,electronic_check,fiber_optic,Yes,No,Yes,Yes,Yes,Yes,0,1,1,1,0,1,0
+2809-ZMYOQ,32,101.35,3334.9,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,Yes,0,0,0,1,1,1,0
+5084-OOVCJ,17,55.35,920.5,month_to_month,credit_card,dsl,Yes,No,No,Yes,No,No,0,1,1,1,0,1,0
+0254-WWRKD,67,50.55,3431.75,one_year,credit_card,dsl,No,Yes,No,No,No,No,0,1,1,1,0,0,0
+7727-SHVZV,9,19.5,150.35,month_to_month,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+6302-JGYRJ,31,79.45,2587.7,one_year,mailed_check,dsl,No,Yes,No,Yes,Yes,Yes,0,0,1,1,1,1,1
+5339-PXDVH,4,90.65,367.95,month_to_month,electronic_check,fiber_optic,Yes,No,No,No,Yes,No,0,0,0,1,1,0,0
+2205-LPVGL,58,89.85,5125.75,one_year,bank_transfer,fiber_optic,Yes,Yes,No,Yes,No,No,1,1,1,1,1,1,0
+8782-NUUOL,60,79.0,4801.1,one_year,mailed_check,dsl,Yes,No,Yes,Yes,Yes,Yes,0,0,0,1,0,0,0
+3685-YLCMQ,58,104.65,6219.6,one_year,electronic_check,fiber_optic,No,No,Yes,Yes,Yes,Yes,0,0,0,1,1,1,1
+7601-WFVZV,1,19.55,19.55,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+4609-KNNWG,27,19.9,550.1,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+4868-AADLV,66,116.25,7862.25,one_year,electronic_check,fiber_optic,Yes,Yes,Yes,Yes,Yes,Yes,1,1,1,1,1,1,0
+9529-OFXHY,15,87.75,1242.2,month_to_month,bank_transfer,fiber_optic,Yes,No,No,No,Yes,No,0,0,0,1,1,1,0
+8634-MPHTR,47,100.05,4871.05,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,Yes,1,1,0,1,1,1,1
+2669-QVCRG,41,81.3,3190.65,month_to_month,credit_card,fiber_optic,Yes,No,No,No,No,No,0,0,0,1,1,1,0
+2478-EEWWM,59,44.3,2666.75,month_to_month,electronic_check,dsl,No,No,No,No,Yes,Yes,0,1,0,0,0,1,0
+9174-IHETN,50,70.35,3533.6,two_year,credit_card,fiber_optic,No,No,No,No,No,No,0,0,1,1,0,0,0
+2233-TXSIU,17,44.45,792.15,one_year,credit_card,dsl,Yes,No,Yes,No,Yes,No,0,1,1,0,0,0,0
+9644-UMGQA,6,49.15,295.65,month_to_month,electronic_check,dsl,Yes,No,No,No,No,No,0,1,1,1,0,1,0
+3256-EZDBI,51,29.45,1459.35,month_to_month,credit_card,dsl,No,Yes,No,No,No,No,1,1,0,0,0,1,0
+8761-NSOBC,44,100.55,4398.15,month_to_month,electronic_check,fiber_optic,No,Yes,No,Yes,Yes,Yes,0,0,0,1,0,0,1
+0419-YAAPX,49,85.3,4297.95,month_to_month,credit_card,fiber_optic,No,Yes,No,No,Yes,No,0,1,0,1,0,1,0
+8413-VONUO,2,95.65,167.3,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,Yes,Yes,0,0,0,1,0,0,1
+0872-CASZJ,59,69.1,4096.9,one_year,mailed_check,dsl,Yes,No,No,Yes,No,Yes,0,1,0,1,1,1,0
+4726-DLWQN,50,70.35,3454.6,month_to_month,bank_transfer,dsl,Yes,Yes,No,No,Yes,No,1,0,0,1,1,1,0
+8164-OCKUJ,59,20.6,1286.0,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+3094-JOJAI,18,74.15,1387.0,month_to_month,mailed_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,1,0,0
+9494-MRNYX,10,75.05,786.3,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,1,0,0
+2599-CZABP,14,44.6,641.25,one_year,electronic_check,dsl,No,No,No,No,No,No,0,1,0,1,0,0,0
+7945-PRBVF,35,21.45,705.45,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+4544-RXFMG,8,43.45,345.5,one_year,mailed_check,dsl,No,No,No,No,No,No,0,1,1,1,0,1,0
+0859-YGKFW,18,20.05,345.9,one_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+1150-FTQGN,60,94.15,5811.8,one_year,bank_transfer,fiber_optic,Yes,Yes,No,No,Yes,No,0,1,1,1,1,0,0
+9223-UCPVT,1,94.4,94.4,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,Yes,0,0,0,1,0,0,1
+7196-LIWRH,6,19.55,124.45,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+5448-VWNAM,19,75.9,1375.6,month_to_month,mailed_check,dsl,Yes,Yes,No,Yes,Yes,No,0,0,1,1,1,1,0
+1177-XZBJL,53,64.15,3491.55,one_year,bank_transfer,dsl,Yes,Yes,No,Yes,No,No,0,1,1,1,1,0,0
+3518-FSTWG,72,109.55,7920.7,two_year,bank_transfer,fiber_optic,Yes,Yes,Yes,No,Yes,Yes,1,1,0,1,1,1,0
+9330-VOFSZ,60,110.8,6640.7,two_year,credit_card,fiber_optic,No,Yes,Yes,Yes,Yes,Yes,0,1,0,1,1,1,0
+4351-QLCSU,1,55.0,55.0,month_to_month,credit_card,dsl,No,No,No,No,Yes,No,0,0,0,1,0,1,1
+0939-EREMR,13,53.45,718.1,month_to_month,mailed_check,dsl,No,No,Yes,Yes,No,No,0,0,1,1,0,0,0
+9389-ACWBI,5,69.95,320.4,month_to_month,credit_card,fiber_optic,No,No,No,No,No,No,0,1,1,1,0,0,0
+5419-JPRRN,1,101.45,101.45,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,Yes,0,0,0,1,1,1,1
+3644-QXEHN,13,97.0,1334.45,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,Yes,0,1,1,1,0,0,0
+2911-IJORQ,37,90.6,3358.65,one_year,bank_transfer,dsl,Yes,Yes,Yes,Yes,Yes,Yes,0,0,0,1,1,1,0
+5921-NGYRH,64,73.55,4764.0,month_to_month,mailed_check,fiber_optic,Yes,No,No,No,No,No,0,1,0,1,0,1,0
+2100-BDNSN,5,67.95,350.3,month_to_month,bank_transfer,dsl,No,No,Yes,Yes,Yes,No,0,1,0,1,1,0,1
+5998-DZLYR,61,94.35,5703.0,two_year,bank_transfer,fiber_optic,No,Yes,No,Yes,No,Yes,0,1,0,1,1,1,0
+0488-GSLFR,1,69.5,69.5,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,1
+9318-NKNFC,1,18.85,18.85,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,1
+3985-HOYPM,26,19.4,525.55,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+9728-FTTVZ,1,69.2,69.2,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,1
+9548-LERKT,24,19.75,483.15,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,0,1,0,0,0
+6576-FBXOJ,17,54.6,934.8,one_year,electronic_check,dsl,No,No,Yes,Yes,Yes,Yes,0,1,0,0,0,0,0
+4310-KEDTB,26,29.8,786.5,month_to_month,mailed_check,dsl,No,No,Yes,No,No,No,0,0,1,0,0,1,0
+7254-IQWOZ,1,69.65,69.65,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,1
+2474-BRUCM,40,101.85,4086.3,month_to_month,electronic_check,fiber_optic,Yes,No,No,No,Yes,Yes,1,1,0,1,1,0,1
+4062-HBMOS,52,103.05,5364.8,month_to_month,electronic_check,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,0,0,1,1,1,0
+0742-NXBGR,1,82.3,82.3,month_to_month,electronic_check,fiber_optic,No,Yes,Yes,No,No,No,0,0,0,1,0,1,1
+2676-ISHSF,1,20.3,20.3,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+9236-NDUCW,21,35.1,770.4,two_year,mailed_check,dsl,Yes,No,No,Yes,No,No,0,0,0,0,0,0,0
+4753-PADAS,67,105.7,6816.95,one_year,bank_transfer,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,1,0,1,1,1,0
+6103-QCKFX,44,56.25,2419.55,month_to_month,bank_transfer,dsl,Yes,No,No,Yes,No,No,0,1,1,1,0,0,0
+7781-EWARA,70,60.35,4138.7,one_year,electronic_check,dsl,No,Yes,Yes,Yes,Yes,Yes,0,1,1,0,0,0,0
+6110-OHIHY,3,79.25,267.6,month_to_month,electronic_check,fiber_optic,No,No,No,No,Yes,No,0,0,0,1,0,0,1
+7018-FPXHH,56,59.8,3457.45,two_year,bank_transfer,dsl,Yes,Yes,Yes,No,No,No,0,1,1,1,0,1,0
+5889-LFOLL,13,84.6,1115.2,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,Yes,0,0,0,1,1,1,1
+5708-EVONK,58,93.4,5435.6,month_to_month,bank_transfer,fiber_optic,Yes,Yes,No,No,No,Yes,0,1,1,1,1,1,1
+8708-XPXHZ,42,94.2,4186.3,month_to_month,electronic_check,fiber_optic,No,No,No,No,Yes,Yes,0,1,1,1,1,1,1
+0616-ATFGB,1,25.05,25.05,month_to_month,electronic_check,dsl,No,No,No,No,No,No,1,1,0,0,0,0,1
+0572-ZJKLT,46,99.65,4630.2,two_year,mailed_check,fiber_optic,Yes,No,Yes,Yes,No,Yes,0,1,1,1,1,0,0
+5135-RDDQL,63,50.65,3221.25,two_year,bank_transfer,dsl,Yes,No,No,No,No,No,0,1,1,1,0,1,0
+1353-LJWEM,11,60.9,688.5,month_to_month,electronic_check,dsl,No,Yes,Yes,Yes,No,No,0,0,0,1,0,1,0
+1794-SWWKL,15,59.65,867.1,month_to_month,bank_transfer,dsl,No,No,Yes,Yes,No,No,0,1,1,1,1,1,0
+6166-YIPFO,72,64.7,4746.05,two_year,electronic_check,dsl,Yes,Yes,Yes,Yes,Yes,Yes,0,1,0,0,0,1,0
+7016-BPGEU,29,25.1,712.85,month_to_month,credit_card,dsl,No,No,No,No,No,No,0,0,0,0,0,1,1
+6876-ADESB,1,48.95,48.95,month_to_month,electronic_check,dsl,No,No,Yes,No,No,No,0,0,1,1,0,0,1
+9332-GYWLO,6,54.85,355.1,month_to_month,electronic_check,dsl,No,No,No,No,Yes,No,0,1,1,1,0,0,0
+1963-SVUCV,1,45.3,45.3,month_to_month,electronic_check,dsl,No,No,No,No,No,No,0,0,0,1,0,0,1
+4184-VODJZ,63,91.35,5764.7,one_year,electronic_check,fiber_optic,No,Yes,No,No,No,Yes,0,1,1,1,1,1,0
+0220-EBGCE,2,85.85,167.3,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,No,Yes,0,0,0,1,0,1,1
+1092-WPIVQ,18,25.1,428.45,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,1,0,0
+7233-IOQNP,43,34.0,1505.35,month_to_month,bank_transfer,dsl,Yes,No,No,Yes,No,No,0,1,0,0,0,0,0
+2834-JKOOW,15,45.9,693.45,one_year,mailed_check,dsl,Yes,Yes,Yes,Yes,No,No,0,0,0,0,0,0,0
+2754-VDLTR,10,95.2,930.4,month_to_month,electronic_check,fiber_optic,No,No,No,No,Yes,Yes,0,0,1,1,1,0,1
+2400-FEQME,55,20.5,1177.95,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+3190-XFANI,49,100.6,5069.65,one_year,bank_transfer,fiber_optic,No,No,No,Yes,Yes,Yes,0,0,1,1,1,1,1
+7551-DACSP,6,55.3,324.25,month_to_month,mailed_check,dsl,No,Yes,Yes,No,No,No,0,1,1,1,0,1,1
+4957-SREEC,70,20.35,1458.1,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+7235-NXZCP,2,74.85,156.4,month_to_month,mailed_check,fiber_optic,No,No,No,No,No,No,1,0,0,1,1,1,1
+0230-UBYPQ,63,36.1,2298.9,one_year,bank_transfer,dsl,Yes,No,No,Yes,No,No,1,1,0,0,0,0,0
+4923-ADWXJ,25,65.8,1679.65,month_to_month,bank_transfer,dsl,No,Yes,No,Yes,No,Yes,0,0,0,1,0,1,0
+1763-KUAAW,18,20.35,369.6,one_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,1,0,0,1,0,0,0
+1104-TNLZA,28,105.8,2998.0,month_to_month,electronic_check,fiber_optic,No,Yes,No,Yes,Yes,Yes,1,1,0,1,1,1,0
+5195-KPUNQ,53,96.75,5206.55,one_year,mailed_check,fiber_optic,Yes,Yes,No,Yes,No,Yes,1,0,0,1,0,1,0
+0520-FDVVT,35,102.35,3626.1,one_year,bank_transfer,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,0,0,1,0,1,1
+3439-GVUSX,1,24.4,24.4,month_to_month,mailed_check,dsl,No,No,No,No,No,No,0,0,0,0,0,0,0
+1444-VVSGW,70,115.65,7968.85,one_year,credit_card,fiber_optic,Yes,Yes,Yes,Yes,Yes,Yes,0,1,0,1,1,0,1
+5712-PTIWW,2,79.85,152.45,month_to_month,electronic_check,fiber_optic,No,No,Yes,Yes,No,No,0,0,0,1,0,1,1
+5949-HGVJL,26,73.05,1959.5,month_to_month,electronic_check,dsl,No,Yes,No,Yes,Yes,Yes,0,1,0,1,0,1,0
+5203-XEHAX,34,64.35,2053.05,one_year,electronic_check,dsl,Yes,Yes,No,No,No,Yes,0,0,0,1,0,0,0
+1635-HDGFT,19,20.5,398.55,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,1,1,0,0,0
+3315-TOTBP,15,76.0,1130.85,month_to_month,mailed_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,1,1,1
+8050-XGRVL,62,54.75,3425.35,one_year,credit_card,dsl,Yes,No,Yes,No,No,No,0,1,1,1,0,0,0
+6661-HBGWL,42,104.75,4323.45,month_to_month,bank_transfer,fiber_optic,No,Yes,Yes,No,Yes,Yes,1,0,0,1,1,1,1
+1518-VOWAV,9,74.65,703.55,month_to_month,electronic_check,dsl,Yes,Yes,No,No,Yes,Yes,0,0,0,1,0,1,1
+9828-QHFBK,24,51.15,1275.7,month_to_month,electronic_check,dsl,Yes,No,No,No,No,No,0,0,0,1,0,1,0
+3908-MKIMJ,68,41.95,2965.75,two_year,electronic_check,dsl,Yes,Yes,Yes,No,No,No,1,1,0,0,0,1,0
+5012-YSPJJ,31,54.35,1647.0,month_to_month,mailed_check,dsl,No,No,Yes,Yes,No,No,0,1,1,1,0,0,0
+5909-ECHUI,1,56.25,56.25,month_to_month,electronic_check,dsl,No,No,No,No,No,Yes,0,0,0,1,0,1,1
+1309-BXVOQ,21,106.1,2249.95,month_to_month,electronic_check,fiber_optic,No,No,Yes,Yes,Yes,Yes,0,1,0,1,1,1,1
+6728-VOIFY,63,96.0,6109.75,one_year,electronic_check,fiber_optic,No,Yes,No,No,Yes,Yes,0,1,0,1,0,1,0
+9317-WZPGV,2,79.75,159.4,month_to_month,bank_transfer,fiber_optic,No,No,No,No,No,Yes,1,0,0,1,0,1,1
+4891-NLUBA,61,61.45,3751.15,two_year,bank_transfer,dsl,No,Yes,Yes,Yes,Yes,Yes,0,1,1,0,0,1,0
+2856-HYAPG,1,68.65,68.65,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,0,1
+8969-PRHFK,18,19.65,411.25,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+0661-KQHNK,6,19.0,105.5,one_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+8709-KRDVL,33,100.0,3320.6,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,Yes,Yes,0,0,0,1,1,1,0
+4488-PSYCG,16,20.25,327.45,month_to_month,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,1
+1427-VERSM,56,98.7,5669.5,month_to_month,electronic_check,fiber_optic,No,No,Yes,Yes,Yes,Yes,0,1,0,1,0,1,0
+9801-NOSHQ,23,19.8,465.45,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,1,1,0,0,0
+6339-YPSAH,9,73.8,704.3,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,No,No,0,0,0,1,0,1,0
+3621-CEOVK,14,100.2,1369.8,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,Yes,Yes,1,1,0,1,1,1,1
+6906-ANDWJ,15,74.9,1107.25,month_to_month,bank_transfer,fiber_optic,No,No,No,No,No,No,0,1,1,1,1,1,1
+2159-TURXX,5,20.05,95.55,month_to_month,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+1548-FEHVL,61,106.2,6375.2,month_to_month,electronic_check,fiber_optic,Yes,Yes,No,No,Yes,Yes,0,1,0,1,1,1,0
+3795-CAWEX,70,116.55,8152.3,two_year,credit_card,fiber_optic,Yes,Yes,Yes,Yes,Yes,Yes,0,1,1,1,1,1,0
+6215-NQCPY,15,99.7,1566.75,month_to_month,electronic_check,fiber_optic,Yes,No,No,No,Yes,Yes,0,0,0,1,1,1,0
+5647-URDKA,8,19.7,130.25,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+2229-DPMBI,8,19.5,162.15,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+9626-WEQRM,4,29.15,110.05,month_to_month,mailed_check,dsl,Yes,No,No,No,No,No,0,0,0,0,0,1,0
+2188-SXWVT,34,55.0,1885.15,one_year,mailed_check,dsl,Yes,Yes,No,No,No,No,0,0,0,1,0,0,0
+6258-PVZWJ,68,90.8,6302.85,two_year,credit_card,dsl,Yes,Yes,Yes,Yes,Yes,Yes,0,1,0,1,1,1,0
+1094-BKOSX,45,51.0,2264.5,one_year,bank_transfer,dsl,No,Yes,Yes,Yes,No,Yes,0,1,1,0,0,0,0
+6969-MVBAI,9,90.1,816.8,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,No,1,0,0,1,1,1,0
+2978-XXSOG,22,59.05,1253.5,month_to_month,mailed_check,dsl,Yes,No,No,Yes,No,No,0,0,0,1,1,1,0
+2342-CKIAO,2,20.3,41.2,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+6953-PBDIN,70,72.95,5265.55,two_year,bank_transfer,dsl,No,Yes,Yes,Yes,Yes,No,0,1,0,1,1,0,0
+3898-BSJYF,10,73.55,693.3,one_year,credit_card,dsl,Yes,No,Yes,Yes,No,Yes,0,0,1,1,1,0,0
+3938-YFPXD,72,84.3,5997.1,two_year,credit_card,dsl,Yes,No,Yes,Yes,Yes,Yes,0,0,0,1,1,0,0
+7696-AMHOD,49,78.0,3824.2,one_year,credit_card,dsl,No,Yes,Yes,No,Yes,Yes,0,1,1,1,0,0,0
+2453-SAFNS,54,72.1,3886.05,one_year,mailed_check,dsl,No,Yes,No,Yes,Yes,No,1,0,0,1,1,0,0
+9558-IHEZX,71,106.75,7283.25,two_year,credit_card,fiber_optic,Yes,Yes,Yes,No,Yes,Yes,0,0,0,1,1,1,0
+9617-UDPEU,22,19.25,412.55,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+6340-DACFT,50,20.55,1070.25,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+4955-VCWBI,43,20.0,817.95,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+6813-GZQCG,45,24.65,1171.3,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,1,1,0
+7426-GSWPO,64,103.5,6548.65,month_to_month,bank_transfer,fiber_optic,Yes,Yes,No,No,Yes,Yes,1,0,0,1,1,1,0
+3389-KTRXV,23,23.85,625.65,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,1,0,0
+3118-UHVVQ,68,25.8,1911.5,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,0,1,1,0,0
+1031-IIDEO,1,70.85,70.85,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,1
+5832-XKAES,2,69.8,134.7,month_to_month,credit_card,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,1
+3205-MXZRA,26,59.45,1507.0,one_year,credit_card,dsl,No,No,No,Yes,Yes,No,0,0,0,1,0,0,0
+4701-AHWMW,55,54.55,2978.3,month_to_month,bank_transfer,dsl,No,No,Yes,Yes,Yes,Yes,0,1,0,0,0,1,1
+8317-BVKSO,14,20.05,299.3,month_to_month,electronic_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+5702-KVQRD,71,82.55,5832.65,two_year,electronic_check,dsl,Yes,No,Yes,Yes,Yes,Yes,0,1,0,1,0,1,0
+0083-PIVIK,64,81.25,5567.55,one_year,electronic_check,dsl,Yes,Yes,Yes,Yes,Yes,No,0,0,0,1,1,0,0
+9210-IAHGH,7,70.75,450.8,month_to_month,credit_card,dsl,No,No,No,Yes,Yes,Yes,0,0,0,1,0,1,1
+6169-PGNCD,57,74.3,4166.35,two_year,credit_card,dsl,Yes,Yes,Yes,Yes,Yes,No,0,0,0,1,0,1,0
+0023-XUOPT,13,94.1,1215.6,month_to_month,electronic_check,fiber_optic,No,Yes,Yes,No,Yes,No,0,1,0,1,1,0,1
+4592-IWTJI,3,29.7,91.7,month_to_month,credit_card,dsl,Yes,No,No,No,No,No,0,1,1,0,0,0,1
+4909-JOUPP,72,109.7,7898.45,two_year,credit_card,fiber_optic,No,Yes,Yes,Yes,Yes,Yes,1,1,0,1,1,0,0
+4657-FWVFY,40,96.35,3915.4,month_to_month,credit_card,fiber_optic,No,Yes,Yes,No,Yes,No,0,1,1,1,1,1,0
+2257-BOVXD,14,66.6,979.5,month_to_month,credit_card,dsl,No,No,No,Yes,Yes,No,0,1,0,1,1,1,0
+7729-JTEEC,2,44.5,90.05,month_to_month,electronic_check,dsl,No,No,No,No,No,No,0,1,1,1,0,1,0
+7632-MNYOY,66,110.9,7432.05,one_year,credit_card,fiber_optic,No,Yes,Yes,Yes,Yes,Yes,1,0,0,1,1,0,1
+6518-LGAOV,38,105.0,4026.4,month_to_month,electronic_check,fiber_optic,No,No,Yes,Yes,Yes,Yes,0,1,0,1,1,1,1
+7242-QZLXF,1,25.3,25.3,month_to_month,electronic_check,dsl,No,No,No,No,No,No,0,0,1,0,0,1,1
+4576-CSAJH,22,55.15,1193.05,one_year,credit_card,dsl,No,Yes,No,Yes,No,No,0,0,0,1,0,1,1
+1000-AJSLD,1,20.1,20.1,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,1
+9696-RMYBA,5,80.1,398.55,month_to_month,mailed_check,fiber_optic,No,No,No,No,Yes,No,0,0,0,1,0,1,0
+8690-UPCZI,29,69.05,1958.45,one_year,bank_transfer,dsl,Yes,No,No,Yes,Yes,No,0,1,1,1,1,0,0
+1062-LHZOD,1,69.9,69.9,month_to_month,mailed_check,fiber_optic,No,No,No,No,No,No,0,1,1,1,0,1,1
+9770-LXDBK,3,20.4,63.15,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+4086-WITJG,71,19.7,1301.1,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+8344-WFMFH,9,50.1,484.05,month_to_month,electronic_check,dsl,No,Yes,No,No,No,No,0,0,1,1,0,1,0
+9600-NAXZN,43,101.4,4528.0,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,Yes,Yes,0,0,0,1,1,1,1
+8822-KNBHV,48,83.45,3887.85,one_year,credit_card,dsl,Yes,Yes,Yes,No,Yes,Yes,0,0,0,1,1,1,0
+8404-FYDIB,26,86.65,2208.75,month_to_month,credit_card,fiber_optic,Yes,Yes,No,No,No,No,0,0,0,1,1,1,0
+2791-SFVEW,9,20.15,238.15,month_to_month,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+6457-USBER,1,80.8,80.8,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,Yes,0,0,0,1,0,1,1
+6762-NSODU,46,19.4,958.15,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+4662-EKDPQ,2,62.05,118.3,month_to_month,bank_transfer,dsl,No,No,No,No,No,Yes,0,0,0,1,1,0,1
+9248-OJYKK,1,76.45,76.45,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,1,0,0,1,1,1,1
+9888-ZCUMM,64,60.05,3845.45,two_year,bank_transfer,dsl,Yes,No,Yes,Yes,Yes,Yes,0,1,1,0,0,1,0
+3398-FSHON,12,91.3,1094.5,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,Yes,No,1,0,0,1,1,1,1
+3319-DWOEP,6,95.75,573.75,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,Yes,1,1,0,1,0,1,1
+1074-WVEVG,59,20.35,1267.0,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,0,1,0,0,0
+9979-RGMZT,7,94.05,633.45,one_year,mailed_check,fiber_optic,No,Yes,No,No,Yes,Yes,0,0,0,1,0,1,0
+6437-UDQJM,72,84.1,6129.65,two_year,credit_card,dsl,Yes,Yes,Yes,No,Yes,Yes,1,1,0,1,1,1,0
+1226-IENZN,16,78.75,1218.25,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,Yes,1,0,0,1,0,1,0
+2108-GLPQB,25,55.55,1405.3,month_to_month,credit_card,dsl,No,No,Yes,No,No,No,0,1,0,1,1,0,0
+9259-PACGQ,34,62.65,2274.9,month_to_month,electronic_check,dsl,Yes,Yes,No,Yes,No,No,0,1,0,1,1,0,1
+4415-IJZTP,1,74.5,74.5,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,1,1,1
+1465-VINDH,10,102.1,1068.85,month_to_month,credit_card,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,1,1,1,1,1,1
+5474-LAMUQ,24,20.1,533.9,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,0,1,0,0,0
+3468-DRVQJ,10,70.3,676.15,one_year,electronic_check,dsl,Yes,Yes,No,No,Yes,No,0,1,1,1,1,0,0
+1122-YJBCS,69,53.65,3804.4,one_year,credit_card,dsl,Yes,Yes,No,No,No,No,0,1,0,1,0,1,0
+4990-ALDGW,57,20.75,1118.8,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+4816-OKWNX,50,103.4,5236.4,one_year,bank_transfer,fiber_optic,No,Yes,Yes,Yes,Yes,Yes,0,1,1,1,0,1,0
+3315-IKYZQ,28,50.8,1386.8,one_year,mailed_check,dsl,Yes,No,Yes,Yes,Yes,No,0,1,1,0,0,0,0
+2810-FTLEM,16,50.15,762.25,month_to_month,electronic_check,dsl,Yes,No,No,No,No,No,0,0,0,1,0,1,1
+4747-LCAQL,25,79.0,1902.0,month_to_month,mailed_check,dsl,Yes,Yes,No,Yes,Yes,Yes,0,0,0,1,0,1,0
+3411-WLRSQ,3,74.6,239.05,month_to_month,bank_transfer,fiber_optic,No,Yes,No,No,No,No,1,1,0,1,0,1,0
+0898-XCGTF,61,96.5,5673.7,one_year,bank_transfer,fiber_optic,No,No,No,No,Yes,Yes,0,1,0,1,1,1,0
+8006-PYCSW,2,20.1,39.8,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+8249-THVEC,51,19.4,997.75,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+8722-PRFDV,71,77.55,5574.35,two_year,credit_card,dsl,Yes,No,Yes,No,Yes,Yes,0,1,1,1,0,0,0
+2164-SOQXL,20,20.05,406.05,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+4020-KIUDI,6,19.85,138.85,month_to_month,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+5850-BDWCY,6,20.2,123.65,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+2038-YSEZE,29,67.45,1801.1,month_to_month,mailed_check,dsl,Yes,Yes,No,Yes,No,No,0,0,0,1,1,0,0
+0827-ITJPH,36,18.55,689.0,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+8799-OXZMD,28,29.75,790.7,month_to_month,mailed_check,dsl,No,No,Yes,No,No,No,0,0,0,0,0,1,0
+1925-TIBLE,7,86.5,582.5,month_to_month,electronic_check,fiber_optic,No,No,No,No,Yes,No,0,1,0,1,1,1,1
+1705-GUHPV,63,24.2,1618.2,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,1,0,0
+4779-ZGICK,48,23.55,1173.35,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,1,0,0
+0048-PIHNL,49,20.45,900.9,one_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,0,1,0,0,0
+0818-OCPZO,27,81.45,2122.05,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,No,No,1,0,0,1,1,1,1
+3967-KXAPS,72,92.3,6719.9,two_year,credit_card,dsl,Yes,Yes,Yes,Yes,Yes,Yes,0,1,0,1,1,0,0
+1447-GIQMR,1,69.15,69.15,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,1,0,1,0,1,1
+3704-IEAXF,72,53.65,3784.0,two_year,credit_card,dsl,No,Yes,No,Yes,Yes,Yes,0,1,1,0,0,0,0
+6810-VCAEX,47,39.65,1798.65,one_year,credit_card,dsl,Yes,Yes,No,Yes,No,No,0,0,0,0,0,0,0
+0674-EYYZV,1,54.65,54.65,month_to_month,electronic_check,dsl,No,No,No,No,Yes,No,0,0,0,1,0,1,0
+4480-MBMLB,36,104.8,3886.45,one_year,bank_transfer,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,0,0,1,1,1,0
+1395-OFUWC,43,29.3,1224.05,month_to_month,credit_card,dsl,No,Yes,No,No,No,No,0,1,1,0,0,0,0
+0822-QGCXA,27,83.85,2310.2,month_to_month,electronic_check,dsl,No,Yes,Yes,Yes,Yes,Yes,1,1,0,1,1,0,0
+0872-NXJYS,9,79.55,723.4,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,Yes,0,0,0,1,0,1,1
+2832-KJCRD,38,103.65,3988.5,month_to_month,electronic_check,fiber_optic,No,No,Yes,Yes,Yes,Yes,0,0,0,1,1,1,0
+3588-WSTTJ,35,99.05,3554.6,month_to_month,electronic_check,fiber_optic,Yes,No,No,No,Yes,Yes,1,0,0,1,1,1,0
+4075-WKNIU,0,73.35,73.35,two_year,mailed_check,dsl,No,Yes,Yes,Yes,Yes,No,0,1,1,1,1,0,0
+5090-EMGTC,59,100.05,6034.85,two_year,mailed_check,fiber_optic,No,Yes,No,Yes,Yes,Yes,0,1,0,1,0,1,0
+2346-CZYIL,27,20.35,531.6,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+3798-EPWRR,2,43.95,85.1,month_to_month,electronic_check,dsl,No,No,No,No,No,No,1,0,0,1,0,0,0
+6258-NGCNG,7,23.5,173.0,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,1,0,0
+4186-ZBUEW,36,70.7,2511.95,one_year,mailed_check,dsl,No,Yes,No,Yes,No,Yes,0,0,0,1,1,1,0
+5274-XHAKY,41,94.3,3893.6,month_to_month,bank_transfer,fiber_optic,Yes,Yes,No,No,Yes,No,0,1,1,1,1,1,0
+1442-BQPVU,13,29.15,357.15,month_to_month,electronic_check,dsl,No,Yes,No,No,No,No,0,0,0,0,0,0,0
+3978-YNKDD,19,20.85,467.5,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,1,1,0,0,0
+4940-KHCWD,60,37.7,2288.7,two_year,bank_transfer,dsl,Yes,Yes,No,Yes,No,No,0,1,0,0,0,0,0
+9412-ARGBX,48,95.5,4627.85,two_year,mailed_check,fiber_optic,No,Yes,Yes,Yes,Yes,No,0,0,1,1,0,1,1
+1389-CXMLU,3,91.05,289.1,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,No,1,0,0,1,1,0,1
+9589-ABEPT,69,92.45,6460.55,two_year,mailed_check,fiber_optic,No,Yes,No,Yes,Yes,No,0,1,0,1,1,1,0
+9388-ZEYVT,43,44.15,1931.3,one_year,electronic_check,dsl,No,No,Yes,Yes,No,Yes,0,0,0,0,0,0,0
+0305-SQECB,11,36.05,402.6,one_year,mailed_check,dsl,Yes,No,No,Yes,No,No,0,0,1,0,0,1,0
+7605-SNLQG,45,50.25,2221.55,month_to_month,credit_card,dsl,No,No,Yes,No,No,No,0,1,0,1,0,1,0
+4670-TABXH,72,109.75,7758.9,two_year,credit_card,fiber_optic,No,Yes,Yes,Yes,Yes,Yes,0,1,0,1,1,1,0
+5561-NWEVX,2,79.2,172.85,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,No,No,1,1,0,1,1,0,1
+0064-SUDOG,12,20.3,224.5,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+8561-NMTBD,67,112.35,7388.45,one_year,credit_card,fiber_optic,No,Yes,Yes,Yes,Yes,Yes,0,1,1,1,1,1,0
+5161-XEUVX,37,94.3,3460.95,two_year,mailed_check,fiber_optic,No,No,Yes,Yes,Yes,No,0,1,0,1,1,0,0
+8292-FRFZQ,39,41.15,1700.9,one_year,bank_transfer,dsl,Yes,Yes,No,Yes,No,No,0,0,0,0,0,0,0
+8591-NXRCV,41,74.65,3090.65,month_to_month,bank_transfer,dsl,Yes,No,Yes,Yes,No,Yes,0,0,0,1,1,1,0
+7895-VONWT,25,48.25,1293.8,month_to_month,electronic_check,dsl,No,No,Yes,No,Yes,Yes,0,0,0,0,0,1,0
+4526-RMTLL,8,76.15,645.8,two_year,credit_card,dsl,Yes,Yes,No,Yes,No,Yes,0,1,1,1,1,1,0
+6253-GNHWH,71,71.1,5224.95,two_year,mailed_check,dsl,Yes,Yes,Yes,Yes,No,No,0,1,1,1,1,0,0
+4566-NECEV,5,96.55,500.1,month_to_month,electronic_check,fiber_optic,No,Yes,Yes,No,No,Yes,0,0,0,1,1,0,0
+8080-POTJR,30,79.3,2427.1,one_year,credit_card,dsl,Yes,No,Yes,No,Yes,Yes,0,0,0,1,1,1,0
+6906-MPARY,40,89.6,3488.15,one_year,credit_card,fiber_optic,No,Yes,No,Yes,No,Yes,0,0,0,1,0,1,0
+3662-FXJFO,54,20.5,1035.7,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+8107-RZLNV,72,106.3,7565.35,two_year,bank_transfer,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,1,0,1,1,1,0
+0516-OOHAR,28,100.35,2799.0,one_year,bank_transfer,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,1,1,1,0,0,0
+2027-CWDNU,18,85.6,1601.5,month_to_month,electronic_check,fiber_optic,No,No,No,Yes,No,Yes,0,1,1,1,0,1,0
+2737-WFVYW,2,45.25,85.5,month_to_month,electronic_check,dsl,No,No,No,No,Yes,Yes,0,0,0,0,0,1,1
+9912-OMZDS,59,106.15,6256.2,one_year,electronic_check,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,1,1,1,1,1,0
+3733-ZEECP,22,51.1,1232.9,month_to_month,electronic_check,dsl,No,No,No,Yes,No,No,0,1,1,1,0,1,0
+7878-RTCZG,1,19.9,19.9,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+2452-MRMZF,72,25.7,1937.4,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,1,1,0,1,1,1,0
+2272-QAGFO,14,74.3,1096.25,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,1,0,0,1,1,1,1
+7103-IPXPJ,50,99.4,5059.75,one_year,electronic_check,fiber_optic,No,No,No,Yes,Yes,Yes,0,1,0,1,1,0,0
+4342-HFXWS,48,69.7,3023.65,one_year,bank_transfer,dsl,Yes,No,Yes,Yes,Yes,No,0,1,1,1,0,0,0
+3545-CNWRG,49,98.35,4889.2,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,Yes,Yes,0,1,1,1,1,1,0
+1785-BPHTP,28,85.45,2289.9,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,No,0,1,1,1,0,0,0
+4989-LIXVT,68,95.9,6503.2,month_to_month,electronic_check,fiber_optic,No,Yes,Yes,No,No,Yes,1,0,0,1,1,1,0
+7315-WYOAW,13,100.75,1313.25,month_to_month,electronic_check,fiber_optic,No,No,No,Yes,Yes,Yes,0,0,0,1,1,0,0
+1173-XZPYF,11,89.2,990.3,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,No,0,0,0,1,1,1,0
+9850-OWRHQ,3,74.1,228.0,month_to_month,credit_card,fiber_optic,No,No,No,No,No,No,0,1,0,1,1,1,1
+3768-NLUBH,57,100.6,5746.15,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,Yes,1,1,0,1,1,0,1
+8676-TRMJS,3,75.0,209.1,month_to_month,mailed_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,1,0,1
+2509-TFPJU,72,25.75,1864.2,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,0,1,1,0,0
+9530-GRMJG,70,84.1,5979.7,two_year,electronic_check,dsl,No,Yes,Yes,Yes,Yes,Yes,0,1,1,1,1,1,0
+6898-RBTLU,49,79.3,3902.45,two_year,bank_transfer,dsl,No,Yes,No,Yes,Yes,Yes,0,1,1,1,1,0,0
+5481-NTDOH,67,107.05,7142.5,one_year,credit_card,fiber_optic,Yes,No,Yes,No,Yes,Yes,1,1,0,1,1,1,0
+2068-WWXQZ,46,20.05,902.0,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+7359-SSBJK,64,70.2,4481.0,two_year,credit_card,dsl,Yes,Yes,No,Yes,Yes,No,1,0,0,1,0,1,1
+2061-VVFST,37,19.5,805.2,month_to_month,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,0,1,0,0,0
+0685-MLYYM,2,70.75,154.85,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,1,0,0,1,0,0,1
+0749-IRGQE,13,45.3,528.45,month_to_month,electronic_check,dsl,No,No,No,No,Yes,Yes,1,1,0,0,0,0,0
+2380-DAMQP,72,115.15,8349.7,two_year,electronic_check,fiber_optic,Yes,Yes,Yes,Yes,Yes,Yes,0,1,0,1,1,0,0
+2256-YLYLP,68,72.95,4953.25,two_year,bank_transfer,dsl,No,No,Yes,Yes,Yes,Yes,0,1,1,1,0,1,0
+1272-ILHFG,15,19.65,332.65,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+0164-XAIRP,24,19.55,470.2,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+5666-CYCYZ,24,89.55,2259.35,month_to_month,electronic_check,fiber_optic,No,No,No,Yes,No,Yes,0,0,0,1,1,1,0
+4011-ARPHK,27,50.35,1411.35,month_to_month,mailed_check,dsl,Yes,No,No,No,No,No,0,0,0,1,0,0,0
+8182-PNAGI,12,50.25,593.75,month_to_month,bank_transfer,dsl,No,No,No,Yes,No,No,0,0,0,1,0,0,1
+6365-HITVU,71,87.25,6328.7,two_year,credit_card,dsl,Yes,Yes,Yes,Yes,Yes,Yes,0,1,1,1,0,0,0
+7558-IMLMT,67,20.8,1411.9,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,1,0
+9488-FYQAU,63,109.25,6841.4,two_year,bank_transfer,fiber_optic,No,Yes,Yes,Yes,Yes,Yes,0,1,0,1,1,1,0
+3590-TCXTB,1,20.35,20.35,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+6994-KERXL,4,55.9,238.5,month_to_month,electronic_check,dsl,No,No,No,No,No,Yes,0,0,0,1,0,1,0
+7957-RYHQD,40,79.2,3233.85,month_to_month,credit_card,fiber_optic,Yes,Yes,No,No,No,No,1,0,0,1,0,1,1
+2180-DXNEG,12,96.0,1062.1,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,Yes,0,0,0,1,0,1,1
+1960-UOTYM,52,79.2,4016.3,two_year,electronic_check,dsl,Yes,Yes,Yes,No,Yes,Yes,0,1,1,1,0,0,0
+2740-JFBOK,10,24.0,226.55,month_to_month,electronic_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,1,1,0
+6500-JVEGC,68,101.35,7110.75,one_year,bank_transfer,fiber_optic,Yes,Yes,Yes,No,Yes,No,0,0,0,1,1,0,0
+5515-AKOAJ,54,100.1,5440.9,month_to_month,electronic_check,fiber_optic,No,No,No,Yes,Yes,Yes,0,0,0,1,1,1,1
+8976-OQHGT,4,56.5,235.1,month_to_month,mailed_check,dsl,No,Yes,No,Yes,No,No,0,1,1,1,0,0,1
+5245-VDBUR,52,35.45,1958.95,one_year,mailed_check,dsl,Yes,No,Yes,No,No,No,0,1,0,0,0,0,0
+6230-BSUXY,1,85.0,85.0,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,No,Yes,1,0,0,1,0,1,1
+8469-SNFFH,70,79.4,5528.9,one_year,bank_transfer,dsl,Yes,Yes,Yes,Yes,Yes,No,0,1,0,1,1,0,0
+2144-ESWKO,43,35.2,1463.7,one_year,credit_card,dsl,Yes,No,Yes,No,No,No,0,0,0,0,0,1,0
+1241-FPMOF,52,19.65,1025.05,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+9928-BZVLZ,12,49.85,552.1,two_year,mailed_check,dsl,Yes,No,Yes,Yes,No,Yes,0,0,0,0,0,0,0
+4114-QMKVN,56,68.75,3815.4,one_year,bank_transfer,dsl,Yes,Yes,No,No,No,Yes,0,1,1,1,1,0,0
+2775-SEFEE,0,61.9,61.9,two_year,bank_transfer,dsl,Yes,Yes,No,Yes,No,No,0,0,1,1,1,1,0
+9003-CPATH,42,79.9,3313.4,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,No,No,0,0,0,1,1,0,0
+1754-GKYPY,22,89.75,1938.9,month_to_month,bank_transfer,fiber_optic,No,No,No,No,Yes,Yes,1,1,0,1,0,1,0
+5294-CDGWY,51,59.3,3014.65,one_year,electronic_check,dsl,Yes,Yes,Yes,No,Yes,Yes,0,1,1,0,0,0,1
+7956-XQWGU,27,19.4,460.25,month_to_month,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+1591-MQJTP,51,93.65,4839.15,one_year,bank_transfer,fiber_optic,Yes,No,Yes,No,No,Yes,1,1,0,1,1,1,0
+5295-PCJOO,4,49.4,184.4,month_to_month,electronic_check,dsl,Yes,No,No,No,No,No,0,0,1,1,0,1,1
+2369-FEVNO,1,19.9,19.9,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+9863-JZAIC,35,55.0,2010.55,month_to_month,mailed_check,dsl,No,No,No,No,Yes,No,0,0,0,1,0,0,1
+7471-MQPOS,71,72.9,5139.65,one_year,bank_transfer,dsl,No,Yes,Yes,Yes,No,Yes,1,1,1,1,1,1,0
+7660-HDPJV,1,69.2,69.2,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,1
+5115-SQAAU,69,25.6,1673.4,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,1,1,0
+9845-QOMAD,14,19.75,309.35,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+7672-VFMXZ,57,55.7,3171.6,month_to_month,electronic_check,dsl,Yes,No,No,Yes,No,No,0,1,0,1,0,0,0
+9739-JLPQJ,72,117.5,8670.1,two_year,credit_card,fiber_optic,Yes,Yes,Yes,Yes,Yes,Yes,0,1,1,1,1,0,0
+9916-AYHTC,48,19.85,916.0,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+3855-ONCAR,4,78.9,299.75,month_to_month,mailed_check,fiber_optic,No,No,No,No,Yes,No,0,1,1,1,0,1,0
+1488-SYSFC,31,20.65,702.05,month_to_month,electronic_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,1,0
+7931-PXHFC,38,62.3,2354.8,one_year,mailed_check,dsl,No,No,Yes,Yes,No,Yes,0,0,0,1,0,1,1
+3990-QYKBE,37,92.5,3473.4,month_to_month,electronic_check,fiber_optic,No,No,No,No,Yes,Yes,1,1,0,1,1,1,1
+0970-QXPXW,1,19.65,19.65,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+3259-KNMRR,57,79.75,4438.2,two_year,bank_transfer,dsl,No,Yes,Yes,No,Yes,Yes,1,0,0,1,1,1,0
+6120-RJKLU,62,79.95,4819.75,two_year,credit_card,dsl,Yes,No,Yes,Yes,Yes,Yes,1,1,0,1,0,1,0
+9572-WUKSB,3,29.9,92.25,month_to_month,electronic_check,dsl,No,No,No,Yes,No,No,0,1,0,0,0,1,0
+5893-KCLGT,72,19.75,1567.0,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,1,1,0,1,0
+0076-LVEPS,29,45.0,1242.45,month_to_month,mailed_check,dsl,Yes,Yes,Yes,Yes,No,No,0,0,1,0,0,1,0
+3640-JQGJG,13,44.8,559.2,month_to_month,bank_transfer,dsl,No,No,No,No,No,No,0,1,1,1,0,0,0
+4919-MOAVT,3,69.65,220.1,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,1,1,0,0,1
+1596-OQSPS,11,51.1,531.15,month_to_month,electronic_check,dsl,No,Yes,No,No,No,No,0,0,0,1,0,0,0
+9867-XOBQA,21,53.15,1183.2,two_year,mailed_check,dsl,Yes,Yes,Yes,Yes,Yes,No,0,0,1,0,0,0,0
+9546-KDTRB,19,24.7,465.85,month_to_month,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,1,0,0
+3090-HAWSU,61,111.6,6876.05,two_year,credit_card,fiber_optic,Yes,No,Yes,Yes,Yes,Yes,0,0,0,1,1,1,1
+9820-RMCQV,11,48.55,501.0,month_to_month,credit_card,dsl,Yes,No,No,No,No,No,0,0,0,1,0,0,1
+3174-RKMOW,35,109.95,3782.4,month_to_month,electronic_check,fiber_optic,No,Yes,Yes,Yes,Yes,Yes,0,1,1,1,1,1,0
+1760-CAZHT,25,20.8,460.2,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,1,1,0,0,0
+7839-QRKXN,1,20.2,20.2,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,1
+8441-SHIPE,67,25.6,1790.35,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,1,1,0
+5204-QZXPU,19,39.65,733.35,month_to_month,electronic_check,dsl,No,No,Yes,No,Yes,No,0,0,0,0,0,1,1
+4597-ELFTS,56,24.9,1334.0,one_year,electronic_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,1,0,1
+1320-GVNHT,72,108.4,7767.25,two_year,credit_card,fiber_optic,Yes,Yes,Yes,No,Yes,Yes,0,1,1,1,1,1,0
+1047-RNXZV,43,19.55,876.15,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+3541-ZNUHK,55,85.1,4600.95,month_to_month,electronic_check,fiber_optic,Yes,Yes,No,No,No,No,0,1,1,1,1,1,0
+8450-JOVAH,2,56.7,113.55,month_to_month,mailed_check,dsl,Yes,No,No,No,No,No,0,1,1,1,1,0,1
+8725-JEDFD,27,69.05,1793.25,month_to_month,mailed_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,0
+7562-UXTPG,13,70.15,886.7,month_to_month,mailed_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,0
+8071-SBTRN,70,111.15,7737.55,two_year,mailed_check,fiber_optic,Yes,Yes,Yes,No,Yes,Yes,0,0,0,1,1,1,0
+1113-IUJYX,14,105.95,1348.9,one_year,mailed_check,fiber_optic,Yes,Yes,No,Yes,Yes,Yes,0,1,0,1,0,0,1
+6668-CNMFP,19,89.35,1686.85,one_year,bank_transfer,fiber_optic,No,No,No,Yes,No,Yes,0,1,1,1,1,1,0
+5626-MGTUK,20,89.1,1879.25,month_to_month,bank_transfer,fiber_optic,Yes,No,No,No,Yes,No,0,0,0,1,1,1,0
+5681-LLOEI,43,91.25,4013.8,one_year,credit_card,fiber_optic,Yes,No,Yes,Yes,No,No,0,1,1,1,1,1,0
+8212-DJRCH,5,90.35,434.5,month_to_month,mailed_check,fiber_optic,Yes,No,Yes,No,No,Yes,0,1,1,1,0,1,0
+4323-OHFOW,70,105.55,7195.35,one_year,bank_transfer,fiber_optic,No,Yes,No,Yes,Yes,Yes,1,1,0,1,1,1,0
+4933-BSAIP,40,19.1,780.1,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,0,1,0,0,0
+2030-BTZRO,6,20.4,107.6,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,1,0
+1116-DXXDF,39,100.45,3801.7,two_year,electronic_check,fiber_optic,Yes,No,Yes,No,Yes,Yes,0,0,0,1,0,1,0
+9274-CNFMO,4,74.95,308.7,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,1,1,0,1,1,0,1
+7758-XKCBS,15,29.7,438.25,month_to_month,electronic_check,dsl,No,No,No,Yes,No,No,0,0,0,0,0,1,1
+8992-JQYUN,1,50.35,50.35,month_to_month,electronic_check,dsl,No,No,Yes,No,Yes,Yes,0,1,0,0,0,1,1
+6563-VNPMN,45,85.7,3778.1,month_to_month,bank_transfer,fiber_optic,Yes,Yes,No,Yes,No,No,1,0,0,1,0,1,0
+0617-AQNWT,64,47.85,3147.5,two_year,electronic_check,dsl,Yes,No,Yes,Yes,No,Yes,0,1,0,0,0,0,1
+2267-WTPYD,57,94.0,5438.95,month_to_month,credit_card,fiber_optic,No,Yes,Yes,No,No,Yes,1,1,0,1,1,0,0
+0270-THENM,72,69.85,5102.35,two_year,bank_transfer,dsl,Yes,Yes,Yes,Yes,No,No,0,1,1,1,1,0,0
+2446-PLQVO,1,70.3,70.3,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,1
+4707-MAXGU,72,25.85,1872.2,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,0,1,1,0,0
+2710-WYVXG,3,71.1,213.35,two_year,mailed_check,dsl,Yes,Yes,No,Yes,No,Yes,0,0,0,1,0,0,0
+3005-NFMTA,55,98.8,5617.75,month_to_month,electronic_check,fiber_optic,Yes,No,No,No,Yes,Yes,1,0,0,1,1,1,1
+6300-BWMJX,59,93.35,5386.5,month_to_month,electronic_check,fiber_optic,No,No,Yes,Yes,Yes,No,0,1,0,1,1,0,0
+8784-CGILN,18,99.85,1776.95,month_to_month,bank_transfer,fiber_optic,No,No,No,Yes,Yes,Yes,0,0,0,1,1,1,1
+5389-FFVKB,32,80.3,2483.05,month_to_month,credit_card,fiber_optic,No,No,No,No,No,Yes,1,1,0,1,0,1,1
+7009-LGECI,4,50.55,235.65,month_to_month,bank_transfer,dsl,Yes,No,No,No,No,No,0,0,0,1,0,1,0
+8444-WRIDW,66,80.45,5224.35,month_to_month,credit_card,fiber_optic,No,Yes,No,No,No,No,1,0,0,1,1,1,1
+5022-KVDQT,27,81.3,2272.8,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,No,No,0,0,0,1,1,1,0
+7976-CICYS,4,20.7,83.75,month_to_month,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+1036-GUDCL,60,79.05,4663.4,month_to_month,credit_card,dsl,Yes,Yes,No,Yes,Yes,Yes,0,1,1,1,0,1,0
+2005-DWQZJ,8,19.05,201.7,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+8148-WOCMK,8,19.6,125.0,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+7815-PDTHL,35,20.2,684.4,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+9451-LPGOO,7,86.8,620.35,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,Yes,0,0,0,1,1,1,1
+9173-IVZVP,53,20.9,1146.05,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,0,0
+9129-UXERG,18,103.6,1806.35,month_to_month,credit_card,fiber_optic,No,Yes,No,Yes,Yes,Yes,1,0,0,1,1,1,0
+3635-JBPSG,15,38.8,603.0,two_year,mailed_check,dsl,No,Yes,No,No,No,Yes,0,0,0,0,0,1,0
+7964-ZRKKG,67,88.4,5798.3,one_year,bank_transfer,fiber_optic,No,Yes,No,No,Yes,No,0,1,0,1,1,1,0
+5868-YWPDW,6,84.2,519.15,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,No,Yes,1,1,0,1,0,1,1
+6229-LSCKB,6,79.7,497.6,month_to_month,electronic_check,fiber_optic,No,No,No,No,Yes,No,1,0,0,1,0,1,0
+2025-JKFWI,13,99.0,1301.7,month_to_month,mailed_check,fiber_optic,No,No,No,Yes,Yes,Yes,0,0,0,1,1,1,1
+4078-SAYYN,11,100.75,1129.75,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,Yes,0,0,0,1,1,1,1
+1724-IQWNM,1,19.3,19.3,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,1,1,0,1,0
+8217-QYOHV,5,55.75,266.95,month_to_month,mailed_check,dsl,Yes,No,No,Yes,No,No,0,0,0,1,0,1,0
+5546-QUERU,13,19.95,257.0,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+9940-HPQPG,9,91.75,865.8,month_to_month,bank_transfer,fiber_optic,Yes,Yes,Yes,No,No,No,0,1,0,1,1,0,1
+6897-UUBNU,29,89.65,2623.65,month_to_month,mailed_check,fiber_optic,No,Yes,No,Yes,Yes,No,0,0,0,1,0,0,0
+6127-IYJOZ,1,45.85,45.85,month_to_month,mailed_check,dsl,No,No,No,No,No,No,1,0,0,1,0,1,0
+6618-RYATB,1,79.55,79.55,month_to_month,mailed_check,fiber_optic,No,No,Yes,No,No,No,0,0,0,1,1,1,1
+8930-XOTDP,18,55.95,1082.8,month_to_month,mailed_check,dsl,No,No,No,No,Yes,No,0,1,1,1,0,0,0
+5916-QEWPT,2,69.0,147.8,month_to_month,credit_card,dsl,No,No,Yes,No,Yes,Yes,0,1,0,1,0,0,0
+5060-TQUQN,30,83.55,2570.2,month_to_month,bank_transfer,fiber_optic,No,Yes,No,Yes,No,No,0,1,1,1,1,1,0
+0531-XBKMM,66,65.7,4378.9,two_year,bank_transfer,dsl,Yes,Yes,No,Yes,No,No,0,0,1,1,1,0,0
+8465-SBRXP,38,94.9,3616.25,two_year,bank_transfer,fiber_optic,No,No,Yes,Yes,Yes,No,0,1,1,1,1,1,0
+2408-PSJVE,44,61.9,2924.05,month_to_month,mailed_check,dsl,No,Yes,Yes,Yes,No,No,0,1,1,1,0,1,0
+9079-YEXQJ,54,111.1,6014.85,month_to_month,electronic_check,fiber_optic,No,Yes,Yes,Yes,Yes,Yes,0,0,0,1,1,0,1
+9700-ZCLOT,2,20.0,32.7,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+8738-JOKAR,42,67.7,2882.25,one_year,mailed_check,dsl,Yes,Yes,No,Yes,No,Yes,0,0,0,1,0,1,0
+4534-WGCIR,58,25.15,1509.9,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,1,0,0
+1930-WNXSB,58,92.85,5305.05,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,Yes,Yes,0,1,1,1,0,1,0
+2685-SREOM,25,89.1,2368.4,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,No,Yes,0,1,1,1,1,1,1
+3508-CFVZL,71,111.3,7985.9,two_year,mailed_check,fiber_optic,Yes,Yes,Yes,Yes,Yes,Yes,0,0,0,1,1,0,0
+0402-CQAJN,37,101.9,3545.35,month_to_month,bank_transfer,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,0,0,1,1,1,1
+6692-UDPJC,14,91.65,1301.0,month_to_month,electronic_check,fiber_optic,No,No,No,Yes,Yes,No,0,1,1,1,1,1,1
+1273-MTETI,4,88.85,372.45,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,No,Yes,1,0,0,1,1,1,1
+0657-DOGUM,48,60.6,2985.25,one_year,bank_transfer,dsl,Yes,No,No,Yes,No,No,0,1,0,1,1,1,0
+5480-HPRRX,3,25.3,77.75,month_to_month,electronic_check,dsl,No,No,No,No,No,No,1,0,0,0,0,0,1
+8792-AOROI,8,65.5,564.35,two_year,mailed_check,dsl,Yes,No,No,Yes,No,Yes,0,1,0,1,0,0,0
+0295-PPHDO,1,95.45,95.45,month_to_month,electronic_check,fiber_optic,No,No,No,No,Yes,Yes,0,0,0,1,1,1,1
+5146-YYFRZ,67,19.95,1311.75,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+1195-OIYEJ,13,91.1,1135.7,month_to_month,electronic_check,fiber_optic,No,No,No,No,Yes,Yes,0,0,0,1,0,1,1
+5906-CVLHP,45,54.15,2319.8,one_year,credit_card,dsl,No,Yes,No,Yes,No,No,0,1,1,1,0,1,1
+3452-SRFEG,49,74.6,3720.35,month_to_month,bank_transfer,fiber_optic,No,No,No,No,No,No,0,0,0,1,1,1,0
+4070-OKWVH,52,94.6,5025.8,month_to_month,bank_transfer,fiber_optic,No,Yes,Yes,No,Yes,No,0,1,0,1,1,0,0
+5297-MDOIR,63,81.15,5224.5,one_year,credit_card,fiber_optic,Yes,No,Yes,No,No,No,0,1,0,1,0,1,0
+6369-MCAKO,68,89.05,6185.8,two_year,bank_transfer,dsl,Yes,Yes,Yes,Yes,Yes,Yes,0,1,1,1,1,1,0
+4926-UMJZD,31,49.2,1498.55,month_to_month,mailed_check,dsl,No,No,No,Yes,No,No,0,1,0,1,0,1,0
+6848-HJTXY,64,19.45,1208.6,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,0,1,0,0,0
+6341-AEVKX,62,104.3,6613.65,one_year,electronic_check,fiber_optic,Yes,No,Yes,Yes,Yes,Yes,0,1,0,1,0,1,0
+4501-EQDRN,1,69.7,69.7,month_to_month,bank_transfer,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,0,1
+2990-HWIML,6,89.5,573.3,month_to_month,electronic_check,fiber_optic,No,No,No,No,Yes,Yes,0,0,0,1,0,1,1
+0682-USIXD,21,86.05,1818.9,month_to_month,electronic_check,fiber_optic,No,No,No,Yes,Yes,No,0,1,0,1,0,1,0
+6976-BWGLQ,72,25.2,1787.35,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,1,0,0
+7078-NVFAM,32,35.15,1051.05,month_to_month,electronic_check,dsl,Yes,Yes,No,No,No,No,0,1,1,0,0,1,0
+8065-QBYTO,71,99.65,7181.25,one_year,credit_card,fiber_optic,Yes,Yes,No,Yes,Yes,No,1,0,0,1,1,1,0
+2133-TSRRM,34,105.35,3688.6,month_to_month,bank_transfer,fiber_optic,Yes,Yes,Yes,No,Yes,Yes,0,0,1,1,0,1,0
+7384-GHBPI,3,35.15,99.75,month_to_month,electronic_check,dsl,No,No,No,No,No,Yes,0,1,0,0,0,1,1
+7603-USHJS,12,73.75,871.4,month_to_month,credit_card,fiber_optic,No,No,No,No,No,No,0,0,1,1,1,1,1
+7234-FECYN,8,101.35,780.5,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,Yes,Yes,1,0,0,1,1,0,1
+2511-ALLCS,35,24.3,821.6,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,1,0,0
+3191-CSNMG,3,80.7,239.45,month_to_month,electronic_check,fiber_optic,No,No,No,No,Yes,No,0,1,1,1,0,1,0
+7952-OBOYL,3,89.85,244.45,month_to_month,mailed_check,fiber_optic,No,No,Yes,Yes,Yes,No,0,0,0,1,0,1,0
+7470-DYNOE,53,61.1,3357.9,one_year,electronic_check,dsl,No,No,Yes,No,No,Yes,0,0,0,1,0,1,0
+7853-OETYL,4,29.05,129.6,month_to_month,electronic_check,dsl,Yes,No,No,No,No,No,0,1,0,0,0,1,0
+1545-ACTAS,48,99.7,4977.2,one_year,bank_transfer,fiber_optic,Yes,No,Yes,No,Yes,Yes,0,1,1,1,0,1,0
+5876-HZVZM,6,55.9,365.35,month_to_month,credit_card,dsl,Yes,Yes,No,No,No,No,0,1,1,1,0,0,1
+1400-MMYXY,3,105.9,334.65,month_to_month,electronic_check,fiber_optic,No,Yes,Yes,No,Yes,Yes,1,1,0,1,1,1,1
+5126-RCXYW,54,46.0,2424.05,two_year,credit_card,dsl,No,No,Yes,Yes,No,Yes,0,1,1,0,0,0,0
+3085-QUOZK,1,43.95,43.95,month_to_month,mailed_check,dsl,No,No,No,No,No,No,0,0,0,1,0,0,1
+2363-BJLSL,62,80.4,4981.15,month_to_month,bank_transfer,dsl,No,Yes,Yes,Yes,Yes,Yes,0,0,0,1,0,1,0
+1956-YIFGE,22,100.05,2090.25,one_year,mailed_check,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,1,1,1,0,1,0
+3926-CUQZX,1,45.1,45.1,month_to_month,bank_transfer,dsl,No,No,No,No,No,No,0,0,0,1,0,1,1
+7921-LMDFQ,51,94.0,4905.75,one_year,bank_transfer,fiber_optic,No,No,Yes,No,Yes,Yes,1,0,0,1,0,1,0
+2925-MXLSX,30,68.95,2038.7,one_year,credit_card,dsl,No,Yes,Yes,No,Yes,No,0,0,0,1,1,1,0
+5820-PTRYM,56,68.45,4014.0,one_year,credit_card,dsl,Yes,Yes,Yes,Yes,No,No,1,1,0,1,1,1,0
+9609-BENEA,35,69.0,2441.7,one_year,electronic_check,dsl,No,Yes,No,Yes,Yes,No,0,1,0,1,1,1,0
+6211-WHMYA,64,43.85,2751.0,month_to_month,electronic_check,dsl,No,Yes,No,Yes,Yes,No,1,0,0,0,0,1,0
+4459-BBGHE,30,44.5,1307.8,month_to_month,electronic_check,dsl,No,No,No,No,Yes,Yes,0,0,1,0,0,1,0
+9945-PSVIP,25,18.7,383.65,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,1,0
+1041-RXHRA,41,70.25,2868.05,month_to_month,bank_transfer,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,0,1
+1750-CSKKM,9,55.35,449.75,month_to_month,electronic_check,dsl,No,No,No,No,Yes,No,0,0,1,1,0,0,1
+9108-EJFJP,1,53.55,53.55,month_to_month,mailed_check,dsl,Yes,Yes,No,No,No,No,0,1,0,1,0,1,0
+0530-IJVDB,70,114.6,7882.5,two_year,electronic_check,fiber_optic,Yes,Yes,Yes,Yes,Yes,Yes,0,0,1,1,1,1,0
+0508-SQWPL,57,20.1,1087.7,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,1,0
+2215-ZAFGX,9,85.5,791.7,month_to_month,electronic_check,fiber_optic,No,No,No,No,Yes,No,0,0,0,1,1,1,0
+8213-TAZPM,69,108.75,7493.05,one_year,bank_transfer,fiber_optic,No,Yes,Yes,Yes,Yes,Yes,0,1,1,1,1,1,0
+7142-HVGBG,43,103.0,4414.3,month_to_month,electronic_check,fiber_optic,No,Yes,Yes,No,Yes,Yes,1,1,0,1,1,1,1
+1304-SEGFY,72,97.85,6841.3,two_year,electronic_check,fiber_optic,No,No,Yes,No,Yes,Yes,0,1,0,1,1,1,0
+7242-EDTYC,44,19.55,819.95,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,1,1,0,0,0
+2904-GGUAZ,72,84.05,6052.25,two_year,bank_transfer,fiber_optic,Yes,Yes,No,No,No,No,0,1,0,1,1,1,0
+8267-ZNYVZ,33,103.75,3361.05,one_year,electronic_check,fiber_optic,Yes,No,Yes,Yes,Yes,Yes,0,1,0,1,0,1,1
+5136-GFPMB,54,89.4,4869.5,month_to_month,credit_card,fiber_optic,No,No,Yes,No,No,Yes,0,0,0,1,1,0,0
+2595-KIWPV,27,19.7,509.3,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,1,1,0,0,0
+5243-SAOTC,54,79.85,4308.25,month_to_month,bank_transfer,fiber_optic,No,Yes,No,No,No,No,0,0,0,1,1,1,0
+9398-MMQTO,3,74.45,221.1,month_to_month,credit_card,fiber_optic,No,Yes,No,No,No,No,0,0,0,1,0,0,0
+7619-PLRLP,53,74.1,3833.95,one_year,bank_transfer,dsl,Yes,Yes,Yes,No,No,Yes,0,1,0,1,1,0,0
+6457-GIRWB,1,69.35,69.35,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,1
+6508-NJYRO,15,18.8,294.95,one_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,0,1,0,0,0
+1450-SKCVI,56,73.85,4092.85,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,No,No,0,0,0,1,0,1,1
+4710-NKCAW,5,64.4,316.9,month_to_month,credit_card,dsl,Yes,Yes,No,Yes,No,No,0,1,1,1,1,0,0
+5306-BVTKJ,48,55.8,2651.2,one_year,credit_card,dsl,No,Yes,Yes,No,No,No,0,1,1,1,0,1,0
+0357-NVCRI,25,20.05,471.7,month_to_month,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,1,1,0,0,0
+5570-PTWEH,3,75.15,216.75,month_to_month,credit_card,fiber_optic,No,No,No,No,No,No,0,1,0,1,1,1,1
+2371-KFUOG,58,99.15,5720.95,one_year,bank_transfer,fiber_optic,Yes,Yes,No,No,Yes,Yes,0,0,0,1,0,0,0
+0463-ZSDNT,10,56.75,503.25,month_to_month,bank_transfer,dsl,No,No,No,No,No,Yes,0,0,0,1,0,1,0
+6502-MJQAE,1,69.6,69.6,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,1
+6257-DTAYD,71,104.15,7365.3,two_year,credit_card,fiber_optic,No,Yes,No,Yes,Yes,Yes,0,1,0,1,1,1,0
+4616-ULAOA,65,110.8,7245.9,two_year,credit_card,fiber_optic,No,Yes,Yes,Yes,Yes,Yes,0,1,1,1,1,1,0
+7693-LCKZL,5,80.15,385.0,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,No,No,0,1,1,1,1,1,1
+7746-AWNQW,28,35.75,961.4,month_to_month,mailed_check,dsl,No,No,Yes,Yes,No,No,0,0,0,0,0,1,0
+5996-EBTKM,67,69.9,4615.9,two_year,bank_transfer,dsl,No,No,Yes,Yes,No,Yes,0,1,1,1,1,1,0
+2758-RNWXS,35,89.2,3251.3,one_year,electronic_check,fiber_optic,Yes,No,No,Yes,No,Yes,0,0,0,1,0,1,0
+2314-TNDJQ,72,55.65,3880.05,two_year,credit_card,dsl,Yes,Yes,Yes,Yes,No,Yes,0,1,1,0,0,0,0
+2405-LBMUW,61,50.7,3088.75,one_year,bank_transfer,dsl,Yes,Yes,No,Yes,No,Yes,0,1,1,0,0,1,0
+3454-JFUBC,68,20.0,1396.0,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,1,0,0,1,0,1,0
+0032-PGELS,1,30.5,30.5,month_to_month,bank_transfer,dsl,Yes,No,No,No,No,No,0,1,1,0,0,0,1
+9039-ZVJDC,3,19.1,53.05,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+6797-LNAQX,70,98.3,6859.5,two_year,bank_transfer,fiber_optic,No,Yes,No,No,Yes,Yes,0,1,1,1,1,0,1
+9013-AQORL,48,45.55,2108.35,month_to_month,credit_card,dsl,No,Yes,Yes,No,No,Yes,0,0,1,0,0,0,0
+2898-MRKPI,68,101.05,6770.5,one_year,credit_card,fiber_optic,No,Yes,No,No,Yes,Yes,0,1,1,1,1,1,0
+2750-BJLSB,47,103.7,4730.6,one_year,electronic_check,fiber_optic,Yes,No,Yes,Yes,Yes,Yes,0,0,0,1,0,1,0
+3648-GZPHF,32,36.25,1151.05,one_year,mailed_check,dsl,No,No,Yes,Yes,No,No,0,1,1,0,0,1,0
+2075-RMJIK,5,49.4,232.55,month_to_month,mailed_check,dsl,Yes,No,No,No,No,No,0,1,1,1,0,1,0
+9588-YRFHY,49,19.9,1022.6,two_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+6394-MFYNG,48,107.4,5121.3,month_to_month,bank_transfer,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,0,0,1,1,1,1
+1564-NTYXF,13,82.0,1127.2,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,Yes,1,0,0,1,1,1,1
+9364-YKUVW,15,19.8,309.4,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+5392-AKEMH,12,45.05,523.1,month_to_month,electronic_check,dsl,No,No,No,No,No,No,0,0,0,1,0,1,0
+2451-YMUXS,67,64.55,4250.1,two_year,bank_transfer,dsl,Yes,Yes,No,Yes,No,No,1,0,0,1,1,1,0
+3914-FDRHP,9,86.25,770.5,month_to_month,electronic_check,fiber_optic,No,No,No,Yes,Yes,No,0,0,0,1,0,0,0
+3078-ZKNTS,13,19.75,246.7,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,1,0
+1024-KPRBB,38,89.1,3342.0,one_year,mailed_check,fiber_optic,No,No,No,No,Yes,Yes,0,0,0,1,0,1,0
+4690-PKDQG,42,95.55,3930.6,month_to_month,electronic_check,fiber_optic,No,Yes,Yes,No,Yes,No,1,1,0,1,1,1,0
+8155-IBNHG,24,75.4,1747.85,month_to_month,credit_card,fiber_optic,No,No,No,No,No,No,0,1,0,1,1,1,1
+0886-QGENL,27,101.25,2754.45,month_to_month,electronic_check,fiber_optic,Yes,No,Yes,No,Yes,Yes,1,1,0,1,0,1,1
+9547-ITEFG,9,102.6,897.75,month_to_month,credit_card,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,1,1,1,1,1,0
+1264-FUHCX,49,56.3,2780.6,one_year,credit_card,dsl,No,Yes,No,Yes,Yes,Yes,0,1,0,0,0,1,0
+7789-CRUVC,61,94.2,5895.45,month_to_month,credit_card,fiber_optic,Yes,Yes,Yes,Yes,No,No,1,1,0,1,1,1,0
+6598-KELSS,50,43.05,2208.05,one_year,bank_transfer,dsl,Yes,Yes,No,No,Yes,No,0,0,1,0,0,1,0
+8739-WWKDU,25,89.5,2196.15,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,Yes,No,1,0,0,1,1,1,1
+8685-WHQPW,22,74.4,1692.6,month_to_month,bank_transfer,fiber_optic,No,No,No,No,No,No,1,0,0,1,1,1,1
+4745-LSPLO,1,20.5,20.5,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,1
+8083-YTZES,4,74.35,265.35,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,0,0,0,1,1,1,1
+7240-FQLHE,18,99.75,1836.25,month_to_month,bank_transfer,fiber_optic,No,No,No,Yes,Yes,Yes,1,1,0,1,1,0,1
+6664-FPDAC,56,111.95,6418.9,one_year,electronic_check,fiber_optic,No,Yes,Yes,Yes,Yes,Yes,1,0,0,1,1,1,1
+9972-VAFJJ,53,94.0,4871.45,one_year,electronic_check,fiber_optic,No,Yes,Yes,Yes,Yes,No,1,1,0,1,0,1,0
+0422-UXFAP,51,98.85,4947.55,one_year,electronic_check,fiber_optic,No,No,Yes,No,Yes,Yes,0,1,0,1,1,1,0
+1904-WAJAA,24,64.35,1558.65,two_year,electronic_check,dsl,Yes,Yes,Yes,No,No,No,0,1,1,1,1,0,0
+5130-YPIRV,62,72.0,4284.2,two_year,credit_card,dsl,Yes,Yes,Yes,No,Yes,No,0,1,0,1,0,1,0
+2843-CQMEG,24,49.7,1218.25,month_to_month,mailed_check,dsl,No,Yes,No,No,No,No,0,0,0,1,0,1,0
+6439-PKTRR,70,80.7,5617.95,two_year,electronic_check,dsl,Yes,Yes,Yes,Yes,Yes,No,0,1,1,1,1,0,0
+5351-QESIO,1,24.2,24.2,month_to_month,mailed_check,dsl,No,No,No,No,No,No,0,0,1,0,0,0,0
+0786-VSSUD,16,39.0,679.85,month_to_month,mailed_check,dsl,No,Yes,No,No,Yes,No,1,0,0,0,0,1,1
+5568-DMXZS,8,65.45,554.45,month_to_month,electronic_check,dsl,No,Yes,No,Yes,Yes,No,0,0,0,1,0,1,0
+8468-FZTOE,72,74.35,5237.4,two_year,electronic_check,dsl,Yes,Yes,Yes,Yes,No,Yes,0,1,1,1,0,1,0
+6633-SYEUS,23,83.2,2032.3,month_to_month,bank_transfer,fiber_optic,No,Yes,Yes,Yes,No,No,0,0,0,1,0,0,0
+6447-GORXK,31,25.0,789.2,month_to_month,credit_card,dsl,No,No,No,No,No,No,0,0,1,0,0,0,0
+6967-PEJLL,37,40.2,1525.35,one_year,electronic_check,dsl,Yes,No,Yes,Yes,No,No,0,1,1,0,0,1,0
+3976-BWUCK,30,94.1,2804.45,month_to_month,credit_card,fiber_optic,No,Yes,No,Yes,Yes,No,0,1,0,1,1,1,1
+5981-ZVXOT,35,108.35,3726.15,one_year,electronic_check,fiber_optic,Yes,Yes,Yes,No,Yes,Yes,1,0,0,1,1,1,0
+1684-FLBGS,23,69.5,1652.1,month_to_month,credit_card,dsl,No,Yes,No,Yes,Yes,No,0,1,1,1,1,1,0
+1389-WNUIB,20,76.0,1588.75,one_year,bank_transfer,dsl,Yes,No,No,No,Yes,Yes,0,1,1,1,1,0,0
+0376-OIWME,36,93.6,3366.05,month_to_month,electronic_check,fiber_optic,Yes,No,No,No,Yes,Yes,0,1,0,1,0,1,0
+3585-ISXZP,8,95.65,778.1,month_to_month,bank_transfer,fiber_optic,No,No,No,No,Yes,Yes,0,0,0,1,1,0,1
+0218-QNVAS,71,100.55,7113.75,one_year,bank_transfer,fiber_optic,No,Yes,No,No,Yes,Yes,0,1,1,1,1,0,0
+6583-QGCSI,50,88.05,4367.35,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,Yes,No,1,1,0,1,1,1,1
+0804-YGEQV,43,24.45,993.15,one_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,1,1,0
+7164-BPTUT,57,89.55,5012.35,two_year,mailed_check,dsl,Yes,Yes,Yes,Yes,Yes,Yes,0,0,1,1,1,0,0
+4174-LPGTI,41,66.5,2728.6,one_year,bank_transfer,dsl,No,Yes,No,Yes,No,Yes,0,1,1,1,0,1,1
+2523-EWWZL,27,76.1,2093.4,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,No,No,0,1,0,1,0,1,0
+0928-XUTSN,13,80.5,1011.8,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,Yes,0,0,0,1,0,1,0
+2108-XWMPY,3,35.45,106.85,month_to_month,mailed_check,dsl,Yes,Yes,No,No,No,No,0,0,0,0,0,1,1
+0052-YNYOT,67,20.55,1343.4,one_year,electronic_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+6304-IJFSQ,3,49.9,130.1,month_to_month,mailed_check,dsl,No,Yes,No,No,No,No,0,0,0,1,0,1,1
+9586-JGQKH,64,105.4,6794.75,two_year,bank_transfer,fiber_optic,No,Yes,No,Yes,Yes,Yes,0,1,0,1,1,1,0
+4501-VCPFK,26,35.75,1022.5,month_to_month,electronic_check,dsl,No,No,Yes,Yes,No,No,0,0,0,0,0,0,0
+6075-SLNIL,38,95.1,3691.2,month_to_month,credit_card,fiber_optic,No,Yes,Yes,No,No,Yes,0,0,0,1,1,1,0
+9347-AERRL,23,19.3,486.2,one_year,credit_card,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,0,1,0,0,0
+0093-XWZFY,40,104.5,4036.85,month_to_month,credit_card,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,0,0,1,1,1,1
+2274-XUATA,72,63.1,4685.55,two_year,bank_transfer,dsl,Yes,Yes,Yes,Yes,Yes,Yes,1,1,0,0,0,1,0
+1980-KXVPM,3,75.05,256.25,month_to_month,credit_card,fiber_optic,No,No,No,No,No,No,1,0,0,1,1,1,1
+7703-ZEKEF,23,81.0,1917.1,month_to_month,electronic_check,fiber_optic,No,No,Yes,No,No,No,0,0,0,1,1,1,1
+0723-DRCLG,1,74.45,74.45,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,1,1,0,1,1,1,1
+5482-NUPNA,4,60.4,272.15,month_to_month,mailed_check,dsl,Yes,Yes,No,Yes,No,No,0,0,0,1,0,1,1
+6691-CCIHA,62,84.95,5150.55,two_year,electronic_check,dsl,Yes,Yes,No,Yes,Yes,Yes,0,1,0,1,1,1,0
+1685-BQULA,40,93.4,3756.4,month_to_month,bank_transfer,fiber_optic,No,Yes,Yes,No,Yes,No,0,0,0,1,1,1,0
+9053-EJUNL,41,89.2,3645.75,month_to_month,electronic_check,fiber_optic,No,Yes,No,No,Yes,No,0,0,0,1,1,1,0
+0666-UXTJO,34,85.2,2874.45,month_to_month,credit_card,fiber_optic,No,No,Yes,No,Yes,No,1,1,0,1,0,1,0
+1471-GIQKQ,1,49.95,49.95,month_to_month,electronic_check,dsl,No,Yes,No,No,No,No,0,0,0,1,0,0,0
+4807-IZYOZ,51,20.65,1020.75,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+1122-JWTJW,1,70.65,70.65,month_to_month,mailed_check,fiber_optic,No,No,No,No,No,No,0,1,1,1,0,1,1
+9710-NJERN,39,20.15,826.0,two_year,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,0,0
+9837-FWLCH,12,19.2,239.0,month_to_month,electronic_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,1,1,1,0,1,0
+1699-HPSBG,12,59.8,727.8,one_year,electronic_check,dsl,No,No,No,Yes,Yes,No,0,0,0,1,0,1,1
+7203-OYKCT,72,104.95,7544.3,one_year,electronic_check,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,0,0,1,1,1,0
+1035-IPQPU,63,103.5,6479.4,month_to_month,electronic_check,fiber_optic,No,Yes,Yes,No,Yes,Yes,1,1,0,1,1,1,0
+7398-LXGYX,44,84.8,3626.35,month_to_month,credit_card,fiber_optic,Yes,No,Yes,No,No,No,0,1,0,1,1,1,0
+2823-LKABH,18,95.05,1679.4,month_to_month,bank_transfer,fiber_optic,No,No,Yes,Yes,No,Yes,0,0,0,1,1,1,0
+8775-CEBBJ,9,44.2,403.35,month_to_month,bank_transfer,dsl,No,No,No,No,No,No,0,0,0,1,0,1,1
+0550-DCXLH,13,73.35,931.55,month_to_month,mailed_check,dsl,No,Yes,No,Yes,Yes,Yes,0,0,0,1,0,0,0
+9281-CEDRU,68,64.1,4326.25,two_year,bank_transfer,dsl,No,Yes,No,Yes,Yes,No,0,1,0,1,0,0,0
+2235-DWLJU,6,44.4,263.05,month_to_month,electronic_check,dsl,No,No,No,No,Yes,Yes,1,0,0,0,0,1,0
+0871-OPBXW,2,20.05,39.25,month_to_month,mailed_check,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+3605-JISKB,55,60.0,3316.1,one_year,credit_card,dsl,Yes,Yes,No,No,No,No,1,1,0,1,1,0,0
+6894-LFHLY,1,75.75,75.75,month_to_month,electronic_check,fiber_optic,No,No,No,No,No,No,1,0,0,1,1,1,1
+9767-FFLEM,38,69.5,2625.25,month_to_month,credit_card,fiber_optic,No,No,No,No,No,No,0,0,0,1,0,1,0
+0639-TSIQW,67,102.95,6886.25,month_to_month,credit_card,fiber_optic,Yes,Yes,Yes,No,Yes,No,0,0,0,1,1,1,1
+8456-QDAVC,19,78.7,1495.1,month_to_month,bank_transfer,fiber_optic,No,No,No,No,Yes,No,0,0,0,1,0,1,0
+7750-EYXWZ,12,60.65,743.3,one_year,electronic_check,dsl,No,Yes,Yes,Yes,Yes,Yes,0,0,0,0,0,0,0
+2569-WGERO,72,21.15,1419.4,two_year,bank_transfer,none,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,0,0,0,1,0,1,0
+6840-RESVB,24,84.8,1990.5,one_year,mailed_check,dsl,Yes,No,Yes,Yes,Yes,Yes,0,1,1,1,1,1,0
+2234-XADUH,72,103.2,7362.9,one_year,credit_card,fiber_optic,No,Yes,Yes,No,Yes,Yes,0,1,1,1,1,1,0
+4801-JZAZL,11,29.6,346.45,month_to_month,electronic_check,dsl,Yes,No,No,No,No,No,0,1,1,0,0,1,0
+8361-LTMKD,4,74.4,306.6,month_to_month,mailed_check,fiber_optic,No,No,No,No,No,No,1,1,0,1,1,1,1
+3186-AJIEK,66,105.65,6844.5,two_year,bank_transfer,fiber_optic,Yes,No,Yes,Yes,Yes,Yes,0,0,0,1,0,1,0
