@@ -1,0 +1,47 @@
+# Central configuration for the mini production ML system.
+# Every script (ingestion, training, serving, monitoring) reads from here
+# so paths and thresholds live in one place instead of being hardcoded.
+
+project:
+  name: "churn-risk-mini-ml-system"
+  use_case: "binary_classification"
+  target_column: "churn"
+  id_column: "customer_id"
+
+paths:
+  raw_data: "data/raw/churn_initial.csv"
+  incoming_dir: "data/incoming"
+  processed_data: "data/processed/training_data.csv"
+  ingestion_log: "data/processed/ingestion_log.csv"
+  models_dir: "models"
+  eval_dir: "artifacts/eval"
+  model_version_file: "models/model_version.json"
+
+training:
+  test_size: 0.15
+  val_size: 0.15
+  random_state: 42
+  baseline_model: "logistic_regression"
+  candidate_model: "random_forest"
+
+promotion_guardrail:
+  min_roc_auc: 0.80
+  max_allowed_regression_vs_baseline: 0.01   # candidate must not be worse than baseline by more than this
+
+monitoring:
+  drift_features:
+    - "tenure_months"
+    - "monthly_charges"
+    - "total_charges"
+    - "senior_citizen"
+  drift_zscore_threshold: 2.0   # |mean_recent - mean_train| / std_train beyond this => warn
+  max_missing_fraction: 0.05
+
+retraining_triggers:
+  min_new_days_of_data: 7
+  auc_drop_threshold: 0.03
+  drift_score_threshold: 2.0
+
+api:
+  host: "0.0.0.0"
+  port: 8000
