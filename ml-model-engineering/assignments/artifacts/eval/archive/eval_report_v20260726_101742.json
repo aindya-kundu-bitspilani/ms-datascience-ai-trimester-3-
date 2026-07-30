@@ -1,0 +1,33 @@
+{
+  "model_version": "v20260726_101742",
+  "trained_at": "2026-07-26T10:17:42.612794+00:00",
+  "baseline": {
+    "val": {
+      "accuracy": 0.7994,
+      "roc_auc": 0.8314,
+      "n_samples": 1057
+    },
+    "test": {
+      "accuracy": 0.8061,
+      "roc_auc": 0.8518,
+      "n_samples": 1057
+    }
+  },
+  "candidate": {
+    "val": {
+      "accuracy": 0.7938,
+      "roc_auc": 0.8263,
+      "n_samples": 1057
+    },
+    "test": {
+      "accuracy": 0.7938,
+      "roc_auc": 0.8473,
+      "n_samples": 1057
+    }
+  },
+  "decision": {
+    "promoted": true,
+    "reason": "Promoted candidate: val ROC AUC 0.8263 >= 0.8 and within 0.01 of baseline (0.8314).",
+    "promoted_model": "random_forest"
+  }
+}

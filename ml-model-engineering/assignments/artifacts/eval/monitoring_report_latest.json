@@ -1,0 +1,38 @@
+{
+  "data_quality": {
+    "n_rows_checked": 400,
+    "issues": [],
+    "passed": true
+  },
+  "drift": {
+    "feature_drift": {
+      "tenure_months": {
+        "train_mean": 32.371,
+        "recent_mean": 33.165,
+        "drift_zscore": 0.032,
+        "flagged": false
+      },
+      "monthly_charges": {
+        "train_mean": 64.762,
+        "recent_mean": 65.837,
+        "drift_zscore": 0.036,
+        "flagged": false
+      },
+      "total_charges": {
+        "train_mean": 2279.799,
+        "recent_mean": 2350.975,
+        "drift_zscore": 0.031,
+        "flagged": false
+      },
+      "senior_citizen": {
+        "train_mean": 0.162,
+        "recent_mean": 0.165,
+        "drift_zscore": 0.008,
+        "flagged": false
+      }
+    },
+    "max_drift_zscore": 0.036,
+    "drift_detected": false,
+    "threshold": 2.0
+  }
+}

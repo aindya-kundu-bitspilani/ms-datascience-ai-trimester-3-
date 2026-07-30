@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-07-26T10:17:43.360441+00:00",
+  "signals": {
+    "days_since_last_training": 8,
+    "recent_labeled_auc": null,
+    "production_auc": 0.8473,
+    "drift_zscore": 0.036
+  },
+  "should_retrain": true,
+  "triggered_by": [
+    "8 days of new data >= minimum 7"
+  ]
+}
